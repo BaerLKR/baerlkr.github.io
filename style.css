@@ -330,10 +330,12 @@ nav .tooltiptext:hover {
   transition: all .5s ease;
   border-radius: 1rem;
   padding: 1rem;
+  opacity: 0;
   color: var(--cont);
 }
 #config-toggle-input:checked ~ .config {
   translate: none;
+  opacity: 1;
 }
 .tree{
   --spacing : 1.5rem;
