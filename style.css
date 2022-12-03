@@ -325,7 +325,7 @@ nav .tooltiptext:hover {
   left: 3.5rem;
   background-color: var(--base-l);
   box-shadow: .5rem .5rem .5rem var(--base-d); 
-  translate: -100vw;
+  translate: -100vmax;
   z-index: 5;
   transition: all .5s ease;
   border-radius: 1rem;
