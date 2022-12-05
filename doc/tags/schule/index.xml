@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schule on Dokumente</title>
+    <link>/doc/tags/schule/</link>
+    <description>Recent content in schule on Dokumente</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Dec 2022 21:09:53 +0100</lastBuildDate><atom:link href="/doc/tags/schule/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chemie_Q1.2</title>
+      <link>/doc/posts/chemie_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/posts/chemie_q1.2/</guid>
+      <description>elektrophile Addition
+Alkohole
+Allgemeines
+Bromprobe
+Kalkwassserprobe
+Silbernitratprobe
+RedOx
+Orbitalmodell
++I Effekt
+elektrophile Addition Mechanismus: Im Prinzip verläuft der Mechanismus nach 3 Schritten:
+Die Bildung des pi-Komplexes Das Brom-Molekül tritt in Wechselwirkung mit den Elektronenreichen pi-elektronen der Doppelbindung des Alkens. Dabei wird das Brom-Molekül polarisiert, es entsteht ein pi-Komplex.
+Bildung des cyklischen sigma-Komplexes: Dabei wird die Br-Br-Bindung heterolytisch gespalten aufgrund des elektrophilen Angriffs des positiv polarisierten Brom-Atoms gespalten. Es entsteht ein cyklischen Bromionium-Ion und ein Bromid-Ion.</description>
+      <content>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;elektrophile Addition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alkohole&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allgemeines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bromprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kalkwassserprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Silbernitratprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RedOx&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orbitalmodell&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;+I Effekt&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;elektrophile-addition&#34;&gt;elektrophile Addition&lt;/h2&gt;
+&lt;h4 id=&#34;mechanismus&#34;&gt;Mechanismus:&lt;/h4&gt;
+&lt;p&gt;Im Prinzip verläuft der Mechanismus nach 3 Schritten:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Die Bildung des pi-Komplexes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Das Brom-Molekül tritt in Wechselwirkung mit den Elektronenreichen pi-elektronen der Doppelbindung des Alkens. Dabei wird das Brom-Molekül polarisiert, es entsteht ein pi-Komplex.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Bildung des cyklischen sigma-Komplexes:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dabei wird die Br-Br-Bindung heterolytisch gespalten aufgrund des elektrophilen Angriffs des positiv polarisierten Brom-Atoms gespalten. Es entsteht ein cyklischen Bromionium-Ion und ein Bromid-Ion.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Nukleophiler Rückseitenangriff&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Anschließend greift das Bromid-Ion das Bromioniom-Ion nukleophil von der Rückseite an, da die Vorderseite durch das Brom -Atom sterisch gehindert ist. Es entsteht ein E-Produkt.&lt;/p&gt;
+&lt;h4 id=&#34;zum-namen&#34;&gt;Zum Namen&lt;/h4&gt;
+&lt;p&gt;Der elektrophile Angriff ist namensgebend für den Mechanismus. Das Adjektiv beschreibt allgemein, welches Teilchen angreift. Elektrophile sind Teilchen mit Elektronenmangel, die e⁻-Reichen Teilchen (Mehrfachbindungen, Anionen) angreifen.&lt;/p&gt;
+&lt;p&gt;Nukleophile sind Teilchen mit Elektronenüberschudd (Anionen, freie EPs), die e⁻-arme Teilchen (Kationen) angreifen.&lt;/p&gt;
+&lt;p&gt;Bei Additionsreaktionen werden mindestens zwei Moleküle vereinigt, ohne das dabei Nebenprodukte anfallen. Dabei werden Mehrfachbindungen aufgespalten. Das Das Substantiv gilt bei Mechanismen die Art an, wie die Teilchen reagieren (Substitution, Addition, Eleiminierung).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;alkoholealkanole&#34;&gt;Alkohole/Alkanole&lt;/h2&gt;
+&lt;p&gt;Substitution eines H-Atoms eines Alkans durch die OH-Gruppe.&lt;/p&gt;
+&lt;p&gt;$$C_nH_{2n+2}O$ / $C_nH_{2n+1}OH$$&lt;/p&gt;
+&lt;p&gt;Alkene unterscheiden sich kaum von Alkenen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;unpolar&lt;/p&gt;
+&lt;p&gt;-&amp;gt; es wirken Van-Der-Vaals Kräfte&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bei vergleichbarer Länge&lt;/p&gt;
+&lt;p&gt;-&amp;gt; ähnliche Löslichkeit und Siedepunkte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;E/Z-Isomere unterscheiden sich aufgrund ihrer ähnlichen Struktur nur geringfügig in den physikalischen Eigenschaften.&lt;/p&gt;
+&lt;h4 id=&#34;nomenklatur&#34;&gt;Nomenklatur&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Längste C-Kette&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Priorität (Nummerierung der C-Atome)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;-OH-Gruppen &amp;gt; C=C-Doppelbindungen &amp;gt; C-C-Dreifachbindungen &amp;gt; Halogene &amp;gt; C-C-Bindungen&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Reihenfolge (der Nennung)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alkylgruppen(Alphabetisch)-Kettenname-Mehrfachbindungen-OH&lt;/p&gt;
+&lt;h4 id=&#34;benennung&#34;&gt;Benennung&lt;/h4&gt;
+&lt;p&gt;Stellung der OH-Gruppe&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;primärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sekundärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tertiärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Benennung nach dem Bindungspartner(C-Atom), an das die OH-Gruppe binded.&lt;/p&gt;
+&lt;p&gt;Anzahl der OH-Gruppen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;einwertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zweiwertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n-Wertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Brom-Probe&lt;/p&gt;
+&lt;p&gt;Die Brom-Probe ist positiv, wenn die Färbung des Bromwassers im unbekannten Stoff ohne Belichtung verschwindet. Das bedeutet, dass der Stoff Mehrfachbindungen hat.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kalkwasserprobe&lt;/p&gt;
+&lt;p&gt;Nachweiß von $$CO_2$$&lt;/p&gt;
+&lt;p&gt;$$Ca(HO)_2+CO_2 \longrightarrow CaCO_3+H_2O$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baeyer-Probe&lt;/p&gt;
+&lt;p&gt;Versetzt man die Probe mit der violetten Baeyer-Reagenz, und sie verfärbt sich braun, so enthält die Probe Mehrfachbindungen.&lt;/p&gt;
+&lt;p&gt;RedOx :&lt;/p&gt;
+&lt;p&gt;$$2MnO_4⁻ + 4H_2O + 3C_2H_4 \longrightarrow 2MnO_2 + 2OH⁻ + 3C_2H_60_2$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RedOx-Reaktionen aufstellen&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Edukte und Produkte ausgleichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;e⁻-Ausgleichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ladungsausgleich&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;im sauren Milieu mit H⁺&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;im alkalischen Milieu mit OH⁻&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;O-Atome ausgleichen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;orbitalmodell&#34;&gt;Orbitalmodell&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;sp³&lt;/th&gt;
+&lt;th&gt;sp²&lt;/th&gt;
+&lt;th&gt;sp&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bindungspartner&lt;/td&gt;
+&lt;td&gt;4 Partner&lt;/td&gt;
+&lt;td&gt;3 Partner&lt;/td&gt;
+&lt;td&gt;2 Partner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sigma-Bindungen&lt;/td&gt;
+&lt;td&gt;4 Bindungen&lt;/td&gt;
+&lt;td&gt;3 Bindungen&lt;/td&gt;
+&lt;td&gt;2 Bindungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pi-Bindungen&lt;/td&gt;
+&lt;td&gt;0 Bindungen&lt;/td&gt;
+&lt;td&gt;1 Bindung&lt;/td&gt;
+&lt;td&gt;2 Bindungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;räumliche Ausdehnung&lt;/td&gt;
+&lt;td&gt;Tetraeder&lt;/td&gt;
+&lt;td&gt;planar&lt;/td&gt;
+&lt;td&gt;linear&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-effekt&#34;&gt;+I-Effekt&lt;/h2&gt;
+&lt;p&gt;+I-Effekte sind der Grund für die verschiedenen Reaktivitäten von primären/sekundären/tertiären C-Atomen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Methylgruppen &amp;ldquo;schieben&amp;rdquo; Elektronen zum C-Atom mit Elektronenmangel (&lt;strong&gt;Hyperkonjugation&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Atome mit hoher EN (zB. Halogene) haben den gegenteiligen Effekt, man nennt ihn den -I-Effekt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Der Effekt wird schwächer, je weiter man entfernt ist (~3 Benachbarte Atome). Die unterschiedlichen Substituenten beeinflussen die Ladungsdichte. Substituenten mit hoher EN entziehen e⁻ und verringern die Ladungsdichte. Substituenten wie Alkylgruppen schieben e⁻ und erhöhen die Ladungsdichte (+I-Effekt). Dadurch wird der geschwindigkeitsbestimmende Schritt der pi-Komplexbildung erschwert bzw erleichtert.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mathe_Q1.2</title>
+      <link>/doc/posts/mathe_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 21:06:08 +0100</pubDate>
+      
+      <guid>/doc/posts/mathe_q1.2/</guid>
+      <description>Themen Integrieren
+graphisch
+algebraisch
+Logarithmen /e-Funktionen
+lineare Substitution
+Fläche zwischen 2 Graphen
+Sachaufgaben
+3D
+Nullstellen und Schnittpunkte berechnen
+Parameteraufgaben
+Bestandsrekonstruktionen
+Geschwindigkeit -&amp;gt; Weg
+Wachstumsrate -&amp;gt; Höhe/ Population
+Anfangswerte
+Modellieren
+(Alles kann auch im hilfsmittelfreien Teil abgefragt werden)
+Integrieren Integrieren ist die gegensätzliche Aktion zum Ableiten. Beim Ableiten wird der Grad der Funktion um 1. Grad geringer, beim Integrieren wird der Grad um 1. Grad erhöht.
+Bsp:
+$$ f(x)= x²$$
+$$F(x)= \frac{1}{3}x³+c$$</description>
+      <content>&lt;h1 id=&#34;themen&#34;&gt;Themen&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Integrieren&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;graphisch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;algebraisch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Logarithmen /e-Funktionen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lineare Substitution&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fläche zwischen 2 Graphen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sachaufgaben&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3D&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nullstellen und Schnittpunkte berechnen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parameteraufgaben&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bestandsrekonstruktionen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Geschwindigkeit -&amp;gt; Weg&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wachstumsrate -&amp;gt; Höhe/ Population&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anfangswerte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modellieren&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Alles kann auch im hilfsmittelfreien Teil abgefragt werden)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;integrieren&#34;&gt;Integrieren&lt;/h2&gt;
+&lt;p&gt;Integrieren ist die gegensätzliche Aktion zum Ableiten. Beim Ableiten wird der Grad der Funktion um 1. Grad geringer, beim Integrieren wird der Grad um 1. Grad erhöht.&lt;/p&gt;
+&lt;p&gt;Bsp:&lt;/p&gt;
+&lt;p&gt;$$ f(x)= x²$$&lt;/p&gt;
+&lt;p&gt;$$F(x)= \frac{1}{3}x³+c$$&lt;/p&gt;
+&lt;p&gt;Wenn man die Stammfunktion F(x) ableitet muss dabei die Ausgangsfunktion f(x) rauskommen. C ist dabei die Konstante, die beim Ableiten wegfällt. Häufig spricht man von $$I_0$$ oder $$A_0$$, das sind die besonderen Stammfunktionen, bei denen gilt:&lt;/p&gt;
+&lt;p&gt;$$I_0(0)=0$ oder $A_0(0)= 0$$&lt;/p&gt;
+&lt;p&gt;Häufig ergibt sich $c$ aus dem Sachzusammenhang.&lt;/p&gt;
+&lt;p&gt;Im Sachzusammenhang lässt sich aus der Geschwindigkeitsfunktion über das Ableiten die Beschleunigungsfunktion errechenen und über das Integrieren die Ortsfunktion.&lt;/p&gt;
+&lt;p&gt;Beispiele für das Integrieren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$$x³ = [ \frac{1}{4}x⁴]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$\sqrt[3]{x²} = x^{\frac{2}{3}} = [\frac{3}{5}x^{\frac{5}{3}}]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$e^{x}= [e^x]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$e^{2+4x} = (2+4x)&amp;rsquo; \times x^{2+4x} = 4 \times e^{2+x}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rechenregeln-der-integrale&#34;&gt;Rechenregeln der Integrale&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Potenzregel&lt;/p&gt;
+&lt;p&gt;$$\int(x^n)dx = \frac{x^{n-1}}{n+1}+C$$&lt;/p&gt;
+&lt;p&gt;$${n \epsilon \mathbb{Z}, n \neq -1}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Summenregel&lt;/p&gt;
+&lt;p&gt;$$\int(f(x)+g(x))dx = \int f(x)dx + \int g(x)dx = F(x)+G(x)$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faktorregel&lt;/p&gt;
+&lt;p&gt;$$\int (a \times f(x)dx = a \times \int f(x)dx = a\times F(x)$$&lt;/p&gt;
+&lt;p&gt;$$a \epsilon \mathbb{R}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponentialregel&lt;/p&gt;
+&lt;p&gt;$$\int (e^x)dx = e^x+C$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sinus- /Cosinussatz&lt;/p&gt;
+&lt;p&gt;$$\int sin(x)dx = -cos(x)+C$$&lt;/p&gt;
+&lt;p&gt;$$\int cos(x)dx = sin(x)+C$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bestimmte-integrale&#34;&gt;Bestimmte Integrale&lt;/h4&gt;
+&lt;p&gt;Besimmt Integrale sind die Fläche zwischen der X-Achse und dem Graphen im &lt;strong&gt;bestimmten Intervall&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;$$\int^{a}_{b}(x)dx$$&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;b&lt;/em&gt; ist hierbei die untere Grenze und &lt;em&gt;a&lt;/em&gt; die obere Grenze.&lt;/p&gt;
+&lt;p&gt;Besimmte integrale werden berechnet, indem man die Stammfunktion mit den eingesetzten Werten der unteren Grenze (&lt;em&gt;b&lt;/em&gt;) von der Stammfunktion mit den Werten der oberen Grenze (&lt;em&gt;a&lt;/em&gt;) subtrahiert.&lt;/p&gt;
+&lt;p&gt;$$\int^{a}_bf(x)dx = [F(x)]^{a}_b = [F(a)] - [F(b)]$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fläche-zwischen-2-graphen&#34;&gt;Fläche zwischen 2 Graphen&lt;/h2&gt;
+&lt;p&gt;Um die Fläche zwischen 2 Graphen zu berechen subtrahiert man das Integral (die Fläche) des unteren Graphen von dem Integral des oberen Graphen.&lt;/p&gt;
+&lt;p&gt;Um hierbei die Position der Graphen zueinander vernachlässigen zu können nutz man hier Betragsstriche.&lt;/p&gt;
+&lt;p&gt;$$A_{ges} = \int |f(x)| - |g(x)|dx$$&lt;/p&gt;
+&lt;p&gt;Die Position im Verhältnis zur x-Achse kann hierbei auch vernachlässigt werden, die Graphen müssen also nicht verschoben werden um im positiven Bereich zu liegen.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gut-zu-wissen&#34;&gt;Gut zu wissen&lt;/h2&gt;
+&lt;h3 id=&#34;logarithmen&#34;&gt;Logarithmen&lt;/h3&gt;
+&lt;p&gt;es gilt für&lt;/p&gt;
+&lt;p&gt;$$a = b^x$$&lt;/p&gt;
+&lt;p&gt;dass&lt;/p&gt;
+&lt;p&gt;$$x = \log_b(a)$$&lt;/p&gt;
+&lt;h3 id=&#34;e-funktionen&#34;&gt;e-Funktionen&lt;/h3&gt;
+&lt;p&gt;$$(e^{x})&amp;rsquo; = e^x \times (x)&amp;rsquo;$$&lt;/p&gt;
+&lt;p&gt;$$\int e^x = e^x \div (x)&amp;rsquo;$$&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Powi_Q1.2</title>
+      <link>/doc/posts/powi_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 20:57:47 +0100</pubDate>
+      
+      <guid>/doc/posts/powi_q1.2/</guid>
+      <description>Themen Entparlamentarisierung
+Gesetzgebungsprozess
+Verfassungsorgane (und ihre Rollen)
+Ablauf
+der Politikzyklus
+Spannungsverhältnisse zwischen Verfassungsorganen
+Exekutive / Legislative
+Legislative / Judikative
+gut zu wissen
+Demokratieformen Aufgabenverteilung Entparlamentarisierung Entparlamentarisierung ist der Prozess, in dem das Parlament, das (laut GG) mächtigste Deutsche Organ, Kompetenzen im Bereich der Gesetzgebung abgibt.
+Lobbyismus
+Lobbygruppen nehmen Einfluss auf die Gestaltung der Gesetze, obwohl das Aufgabe des Parlaments ist Ausschüsse/Gremien
+Der Prozess des Ausformulierens der Gesetzestexte wird beschleunigt, indem Aufgaben ausgelagert werden.</description>
+      <content>&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Entparlamentarisierung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gesetzgebungsprozess&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verfassungsorgane (und ihre Rollen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ablauf&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;der Politikzyklus&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spannungsverhältnisse zwischen Verfassungsorganen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive / Legislative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative / Judikative&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;gut zu wissen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demokratieformen&lt;/li&gt;
+&lt;li&gt;Aufgabenverteilung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;entparlamentarisierung&#34;&gt;Entparlamentarisierung&lt;/h3&gt;
+&lt;p&gt;Entparlamentarisierung ist der Prozess, in dem das Parlament, das (laut GG) mächtigste Deutsche Organ, Kompetenzen im Bereich der Gesetzgebung abgibt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lobbyismus&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lobbygruppen nehmen Einfluss auf die Gestaltung der Gesetze, obwohl das Aufgabe des Parlaments ist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ausschüsse/Gremien&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Der Prozess des Ausformulierens der Gesetzestexte wird beschleunigt, indem Aufgaben ausgelagert werden. Das Können entweder Expertengruppen mit besonderer Expertise auf dem gefragten Fachgebiet oder auch Rechtsanwälte sein. Das kann den Prozess beschleunigen und den Erstvorschlag fachlich besser machen. Aber gleichzeitig schränkt sich das Parlament selbst ein, da die Ausarbeitung der Gesetze im Kompetenzbereich des Parlaments liegt.&lt;/p&gt;
+&lt;p&gt;Dadurch wird das Parlament nur zu einem &amp;ldquo;Abnick&amp;rdquo; Parlament, das die Gesetzesvorschläge nur absegnet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EU Ebene&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EU-Richtlinien / -Beschlüsse / -Verordnungen&lt;/strong&gt; können die Gesetzgebung des Parlaments einschränken, da die genaue Auslegung der Richtlinien der Legislative der Mitgliedsstaaten unterliegt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;andere Verfassungsorgane&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;siehe: &amp;ldquo;Spannungsverhältnisse &amp;quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Andere Organe übernehmen Aufgaben der Gesetzesgebung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Abnick-Parlament&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;interne Spannungen&lt;/p&gt;
+&lt;p&gt;Konflikt zwischen §38GG (Abgeordnete sind nur dem Gewissen verpflichtet) und den Koalitionsverträgen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;parlamentarische Freiheit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fraktionszwang&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Konflikt zwischen der Mehrheit im Parlament und der Mehrheit im Bundestag&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Interessenpolitik (den Interessen seiner Position folgend {Länder/Bundesinteressen})&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parteipolitik (der Linie der Partei folgend)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gesetzgebungsprozess&#34;&gt;Gesetzgebungsprozess&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Verfassungsorgane&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bundestag&lt;/p&gt;
+&lt;p&gt;Der Bundestag ist das &lt;strong&gt;oberste deutsche Verfassungsorgan&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Es wird direkt vom Volk gewählt und es wählt den Kanzler. Die Abgeordneten des Bundestages bilden die Hälfte der Bundesversammlung und sie wählen die Hälfte der Verfassungsrichter im Bundesverfassungsgericht.&lt;/p&gt;
+&lt;p&gt;Um in den Bundestag gewählt zu werden braucht eine Partei mindestens 5% der Stimmen.&lt;/p&gt;
+&lt;p&gt;Aufgaben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gesetzgebung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kontrolle der Regierung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fragerecht&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Misstrauensvotum&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Untersuchungsausschüsse&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesregierung&lt;/p&gt;
+&lt;p&gt;Die Bundesregierung setzt sich aus dem Bundeskanzler und den MinisterInnen zusammen. Die Regierung stellt &lt;strong&gt;meistens&lt;/strong&gt; auch die Mehrheit im Bundestag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kabinett-Prinzip (Kanzler ruft Minister für wichtige Entscheidungen zusammen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stellt Gelder zur Verfügung (&lt;strong&gt;Verwaltung&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beaufsichtigt die Bundesbehörden&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;gestaltet die gesellschaftlichen Verhältnisse und äußere Beziehungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;der Kanzler hat im Kriegsfall den militärischen Oberbefehl&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesrat&lt;/p&gt;
+&lt;p&gt;Der Bundesrat ist das Organ, das die Länder an der Gesetzgebung beteiligt (&lt;strong&gt;Föderalismus&lt;/strong&gt;). Er besteht aus den Mitgliedern der Länderregierungen. Jedes Land hat mindestens 3 Stimmen (§52GG) und alle weiteren Stimmen werden nach der Einwohnerzahl vergeben.&lt;/p&gt;
+&lt;p&gt;Aufgaben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verwaltung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kontrolle des Bundes (Kompetenzüberschreitungen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wahl der Hälfte der Verfassungsrichter&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ewiges Organ (immer besetzt, weil die Länder zu unterschiedlichen Zeiten wählen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundespräsident&lt;/p&gt;
+&lt;p&gt;Der Bundespräsident ist das deutsche Staatsoberhaupt. Er repräsentiert Deutschland nach innen und außen. Allerdings hat er auf keine der Gewalten einen formalen Einfluss. Aber er kann die Auflösung des Bundestages verhindern.&lt;/p&gt;
+&lt;p&gt;Er wird von der &lt;strong&gt;Bundesversammlung&lt;/strong&gt; auf 5 Jahre gewählt. Man kann maximal 2 Amtszeiten (10 Jahre) Bundespräsident sein.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Ablauf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Initiative wird eingebracht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesrat&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundestag&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesregierung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1,2,3 Lesung im Bundestag&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vorschlag geht zum Bundesrat&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei Zustimmung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bundesregierung und Bundespräsident stimmen zu und das Gesetz ist rechtskräftig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei Einsprüchen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vermittlungsausschuss&lt;/strong&gt; (Beratung von der Bundesregierung und dem Bundestag)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Einigung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bundesregierung und Bundespräsident stimmen zu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;keine Zustimmung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gesetz wird verworfen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bpb.de/cache/images/9/331679_article_side.png?8CA1C&#34;&gt;Schaubild&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;politikzyklus&#34;&gt;Politikzyklus&lt;/h3&gt;
+&lt;p&gt;Modell:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Problemdefinition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Auseinandersetzung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implementation der Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Evaluation der Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Terminierung oder erneute Problemstellung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vorteile&lt;/th&gt;
+&lt;th&gt;Nachteile&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Politik lässt sich gut und übersichtlich darstellen, sodass sie auch von Laien verstanden werden kann.&lt;/td&gt;
+&lt;td&gt;Die einzelnen Phasen des Zyklus sind in der Realität nicht so eindeutig zu trennen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;spannungsverhältnisse&#34;&gt;Spannungsverhältnisse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive / Legislative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Konflikt zwischen &lt;strong&gt;Partei- und Interessenpolitik&lt;/strong&gt; (siehe oben)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive übernimmt Aufgaben der Legislative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative macht vom Fragerecht nicht gebrauch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative wird zum &amp;ldquo;Abnick-Parlament&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative / Judikative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Judikative verhindert Veränderungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Judikative übernimmt Aufgaben der Legislative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative arbeitet ungenau/ohne Rücksicht auf bestehende Gesetze&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gut-zu-wissen&#34;&gt;Gut zu Wissen&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Demokratieformen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Demokratieform&lt;/th&gt;
+&lt;th&gt;Erläuterung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;repräsentative Demokratie&lt;/td&gt;
+&lt;td&gt;Die Gewalt geht nicht direkt vom Volke aus, sondern das Volk wird von gewählten Repräsentanten vertreten.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;parlamentarische Demokratie&lt;/td&gt;
+&lt;td&gt;Eine Unterart der repräsentativen Demokratie, hier bilden die Repräsentanten ein Parlament, welches einen Regierungschef wählt und die Macht ausübt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;direkte Demokratie&lt;/td&gt;
+&lt;td&gt;Die Bevölkerung stimmt in Volksabstimmungen und Volksentscheiden direkt über die Politik ab.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Verbändedemokratie&lt;/td&gt;
+&lt;td&gt;Interessengruppen und Lobbyverbände beeinflussen die Politik, um ihre Interessen zu vertreten.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mediendemokratie&lt;/td&gt;
+&lt;td&gt;Die Medien und die Öffentlichkeit (Massenberichterstattung) beeinflussen die Politik massiv, indem sie die Meinungsbildung, sowohl der Politiker, als auch der Öffentlichkeit lenkt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;präsidiale Demokratie&lt;/td&gt;
+&lt;td&gt;Der Präsident wird getrennt von den anderen Volksvertretern gewählt. Er hat eine besonders prominente Stellung in der Politik des Landes.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;autoritäre Demokratie&lt;/td&gt;
+&lt;td&gt;Übergangsphase eines  autoritär geführten Staates zu einer Demokratie.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mitmachdemokratie&lt;/td&gt;
+&lt;td&gt;Jeder Bürger kann sich auf kleiner Ebene direkt an der politischen Gestaltung beteiligen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aufgabenverteilung der Gewalten&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Exekutive&lt;/th&gt;
+&lt;th&gt;Legislative&lt;/th&gt;
+&lt;th&gt;Judikative&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beamte&lt;/td&gt;
+&lt;td&gt;Abgeordnete&lt;/td&gt;
+&lt;td&gt;Richter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Verwaltung&lt;/td&gt;
+&lt;td&gt;Landtag&lt;/td&gt;
+&lt;td&gt;Landesgerichte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bundes- / Landesregierung&lt;/td&gt;
+&lt;td&gt;Bundesrat&lt;/td&gt;
+&lt;td&gt;Bundesverfassungsgericht&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

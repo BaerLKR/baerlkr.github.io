@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dokumente</title>
+    <link>/doc/tags/</link>
+    <description>Recent content in Tags on Dokumente</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Dec 2022 21:09:53 +0100</lastBuildDate><atom:link href="/doc/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chemie</title>
+      <link>/doc/tags/chemie/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/tags/chemie/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Q1</title>
+      <link>/doc/tags/q1/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/tags/q1/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Q1.2</title>
+      <link>/doc/tags/q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/tags/q1.2/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>schule</title>
+      <link>/doc/tags/schule/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/tags/schule/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>mathe</title>
+      <link>/doc/tags/mathe/</link>
+      <pubDate>Mon, 05 Dec 2022 21:06:08 +0100</pubDate>
+      
+      <guid>/doc/tags/mathe/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>powi</title>
+      <link>/doc/tags/powi/</link>
+      <pubDate>Mon, 05 Dec 2022 20:57:47 +0100</pubDate>
+      
+      <guid>/doc/tags/powi/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

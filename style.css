@@ -327,11 +327,10 @@ nav .tooltiptext:hover {
   box-shadow: .5rem .5rem .5rem var(--base-d); 
   translate: -100vmax;
   z-index: 5;
-  transition: all .5s ease .2s;
+  transition: all .5s ease;
   border-radius: 1rem;
   padding: 1rem;
   color: var(--cont);
-  display: none;
 }
 #config-toggle-input:checked ~ .config {
   translate: none;
