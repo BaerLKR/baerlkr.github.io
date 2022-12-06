@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/lovis/projects/html/lovirent.eu/hugo_dev",
+	"sourceRoot": "/home/lovis/projects/website/doc",
 	"sources": [
 		"css/base.scss",
 		"themes/terminal/assets/css/variables.scss",

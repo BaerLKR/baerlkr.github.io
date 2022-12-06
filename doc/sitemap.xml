@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/doc/tags/chemie/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/posts/chemie_q1.2/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/posts/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/q1/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/q1.2/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/schule/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/</loc>
-    <lastmod>2022-12-05T21:09:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/mathe/</loc>
-    <lastmod>2022-12-05T21:06:08+01:00</lastmod>
-  </url><url>
-    <loc>/doc/posts/mathe_q1.2/</loc>
-    <lastmod>2022-12-05T21:06:08+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/powi/</loc>
-    <lastmod>2022-12-05T20:57:47+01:00</lastmod>
-  </url><url>
-    <loc>/doc/posts/powi_q1.2/</loc>
-    <lastmod>2022-12-05T20:57:47+01:00</lastmod>
-  </url><url>
-    <loc>/doc/categories/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>/doc/de/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>/doc/en/sitemap.xml</loc>
+    
+      <lastmod>2022-12-05T21:09:53+01:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
