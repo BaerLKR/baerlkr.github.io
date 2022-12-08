@@ -1,0 +1,17 @@
+2.0
+    #1 online
+2.1
+    added color customization support
+2.2
+    added notifications and image popup
+2.3
+    added color sliders
+2.4
+    added documents
+2.5
+    added HUGO to documents
+2.6
+    javascript documentation
+    added popup messages
+    added versioning file
+    fixed colorsync

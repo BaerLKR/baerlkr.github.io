@@ -1,6 +1,6 @@
 const wilkommen = 'Welcome to my corner of the internet! <br>' + 
 'If you have any suggestions or issues please contact me <br>' +
-'v2.6.5'
+'<a class="a" href="versions.txt">v2.6.5</a>'
 
 function say(input) {
   console.log(input)
