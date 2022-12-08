@@ -1,3 +1,7 @@
+const wilkommen = 'Welcome to my corner of the internet! <br>' + 
+'If you have any suggestions or issues please contact me <br>' +
+'v2.6.5'
+
 function say(input) {
   console.log(input)
   //damit ich bei console.log nicht immer so viel schreiben muss
@@ -59,8 +63,7 @@ function init() {
 
 function initnotiv() {
   //wilkommensnachricht
-  notiv('Welcome to my corner of the internet! <br>' + 
-  'If you have any suggestions or issues please contact me')
+  notiv(wilkommen)
 }
 
 function high(val) {
