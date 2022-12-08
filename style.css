@@ -712,3 +712,36 @@ jgs     /__/ \__\
   outline: solid 0px var(--high-d);
   background-color: var(--high-d);
 }
+/*
+                                 ,        ,
+                                /(        )`
+                                \ \___   / |
+                                /- _  `-/  '
+                               (/\/ \ \   /\
+                               / /   | `    \
+                               O O   ) /    |
+                               `-^--'`<     '
+                   TM         (_.)  _  )   /
+|  | |\  | ~|~ \ /             `.___/`    /
+|  | | \ |  |   X                `-----' /
+`__| |  \| _|_ / \  <----.     __ / __   \
+                    <----|====O)))==) \) /====
+                    <----'    `--' `.__,' \
+                                 |        |
+                                  \       /
+                             ______( (_  / \______
+                           ,'  ,-----'   |        \
+                           `--{__________)        \/
+*/
+.popup-content {
+  color: var(--high);
+  background-color: var(--base-l);
+  padding: .5rem;
+  border-radius: .5rem;
+  margin: 0.5rem;
+  transition: all .5s ease;
+}
+.popup-content:hover {
+  background-color: var(--base);
+  color: var(--high-l);
+}

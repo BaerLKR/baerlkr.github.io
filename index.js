@@ -34,9 +34,15 @@ function init() {
   let local = localStorage.getItem('color')
   let localhigh = localStorage.getItem('high')
   let localcont = localStorage.getItem('cont')
-  farbe(local)
-  high(localhigh)
-  cont(localcont)
+  if (local == null) {
+    farbe(209)
+    high(28)
+    cont(100)
+  } else {
+    farbe(local)
+    high(localhigh)
+    cont(localcont)
+  }
   //setzen der Beiden farben
   scroll_p()
   //setzen des "x/3" beim Slider-Element
@@ -89,12 +95,16 @@ function scroll_p() {
   document.querySelector('.scroll_progress').innerHTML = sel_more_scroller + "/2"
 }
 
-function img(el) {
+function img(el, msg) {
   var imgSrc = el.src;
   say(imgSrc)
   let div = document.createElement("div");
   div.className = "img-popup";
-  div.innerHTML = "<div class='img-popupw'><div class='close-popup' onclick='closeimg()'>X</div><img src='"+imgSrc+"'></div>"
+  if (msg == undefined) {
+    div.innerHTML = "<div class='img-popupw'><div class='close-popup' onclick='closeimg()'>X</div><img src='"+imgSrc+"'></div>"
+  } else {
+    div.innerHTML = "<div class='img-popupw'><div class='close-popup' onclick='closeimg()'>X</div><img src='"+imgSrc+"'><div class='popup-content'>"+msg+"</div></div>"
+  }
   document.body.appendChild(div);
 }
 
