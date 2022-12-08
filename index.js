@@ -14,26 +14,28 @@ function farbe(val) {
   //nutze den Input "val" aus dem onclick event im HTML um die grundfarbe zu setzen
   save(val, 'theme')
   //schreibe die Änderungen zum localstorage
-  document.querySelector('#base-hsl-slider').value = val
+  if (document.querySelector('#base-hsl-slider')) {
+    document.querySelector('#base-hsl-slider').value = val
+  }
 }
 
 function save(color, type) {
   //unterscheide zwischen Grundfarbe und highlight farbe
   if (type == 'theme') {
-    localStorage.setItem("color", color)
+    window.localStorage.setItem("color", color)
     //schreibe zu localstorage   
   } else if (type == 'high') {
-    localStorage.setItem('high', color)
+    window.localStorage.setItem('high', color)
   } else if (type == 'cont') {
-    localStorage.setItem('cont', color)
+    window.localStorage.setItem('cont', color)
   }
 }
 
 function init() {
   //erstmaliges laden beim Laden der Seite
-  let local = localStorage.getItem('color')
-  let localhigh = localStorage.getItem('high')
-  let localcont = localStorage.getItem('cont')
+  let local = window.localStorage.getItem('color')
+  let localhigh = window.localStorage.getItem('high')
+  let localcont = window.localStorage.getItem('cont')
   if (local == null) {
     farbe(209)
     high(28)
@@ -58,13 +60,17 @@ function high(val) {
   //wie bei der Grundfarbe auch
   document.documentElement.style.setProperty("--high-1", val)
   save(val, 'high')
+  if (document.querySelector('#high-hsl-slider')) {
   document.querySelector('#high-hsl-slider').value = val
+  }
 }
 
 function cont(val) {
   document.documentElement.style.setProperty("--cont-1", val)
   save(val , 'cont')
-  document.querySelector('#cont-hsl-slider').value = val
+  if (document.querySelector('#cont-hsl-slider')) {
+    document.querySelector('#cont-hsl-slider').value = val
+  }
 }
 
 let sel_more_scroller = 1
@@ -92,7 +98,9 @@ function more_move(richtung) {
 
 function scroll_p() {
   //die momentan ausgewählte slide im Zähler anzeigen
-  document.querySelector('.scroll_progress').innerHTML = sel_more_scroller + "/2"
+  if (document.querySelector('.scroll_progress')) {
+    document.querySelector('.scroll_progress').innerHTML = sel_more_scroller + "/2"
+  }
 }
 
 function img(el, msg) {
