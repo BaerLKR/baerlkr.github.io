@@ -1,0 +1,47 @@
+body {
+    background-color: var(--base);
+}
+main {
+    min-height: 100vh;
+}
+form {
+    /* position: absolute; */
+    margin: 2rem;
+    bottom: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    margin: 0.2rem;
+}
+/* ul {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    padding-top: 3rem;
+    color: var(--cont);
+} */
+.cl {
+    background-color: var(--base-d);
+    color: var(--high);
+    margin: 0 .75rem;
+    aspect-ratio: 1;
+    display: inline-grid;
+    aspect-ratio: 1;
+    height: 1.5em;
+    place-content: center;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.cl:hover {
+    background-color: var(--high-d);
+    color: var(--cont-l);
+}
+li {
+    margin: 0.3em;
+}
+a {
+    color: var(--high);
+}
