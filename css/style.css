@@ -174,7 +174,7 @@ jrei  `'(_ )_)(_)_)'
   grid-gap: .5rem;
 }
 .intro-img {
-  background-image: url(assets/Pauli.jpg);
+  background-image: url(../assets/Pauli.jpg);
   height: 45vh;
   position: absolute;
   width: 100vw;
@@ -491,14 +491,6 @@ nav .tooltiptext:hover {
 .scroller button:hover {
   scale: 1.2;
 }
-footer {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  background-color: var(--base-l);
-  position: relative;
-  z-index: 3;
-  padding: .5rem;
-}
 .fsf {
   display: grid;
   grid-auto-flow: row;
@@ -534,9 +526,6 @@ footer {
   /* overflow: hidden; */
   display: flex;
   justify-content: center;
-}
-.card:hover .card-img-w{
-  translate: 0 -90%;
 }
 .card {
   background-color: var(--base-d);
@@ -744,4 +733,33 @@ jgs     /__/ \__\
 .popup-content:hover {
   background-color: var(--base);
   color: var(--high-l);
+}
+@media  (orientation: landscape){
+  .card:hover .card-img-w{
+    translate: 0 -90%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: var(--base-l);
+    position: relative;
+    z-index: 3;
+    padding: .5rem;
+  }
+}
+@media  (orientation: portrait){
+  .card .card-content{
+    z-index: 4;
+  }
+  .card-img-w img {
+    filter: brightness(40%);
+  }
+  footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: var(--base-l);
+    position: relative;
+    z-index: 3;
+    padding: .5rem;
+  }
 }
