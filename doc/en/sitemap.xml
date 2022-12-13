@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/doc/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,26 +15,26 @@
                 href="/doc/"
                 />
   </url><url>
-    <loc>/doc/tags/deutsch/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <loc>/doc/tags/geschichte/</loc>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
-    <loc>/doc/posts/deutsch_q1.2/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <loc>/doc/posts/geschichte_q1.2/</loc>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/posts/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/q1/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/q1.2/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/schule/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/</loc>
-    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -45,6 +45,12 @@
                 hreflang="en"
                 href="/doc/tags/"
                 />
+  </url><url>
+    <loc>/doc/tags/deutsch/</loc>
+    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
+  </url><url>
+    <loc>/doc/posts/deutsch_q1.2/</loc>
+    <lastmod>2022-12-06T19:56:39+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/chemie/</loc>
     <lastmod>2022-12-05T21:09:53+01:00</lastmod>
