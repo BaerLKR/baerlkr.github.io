@@ -20,3 +20,6 @@
     JS/CSS Ordnerstruktur
     fixed spelling (thx @selyn)
     footers and navbars on subpages
+    mobile hobb && footer fixed
+2.8
+    lazy loading and other performance tweaks
