@@ -1,0 +1,2333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/doc/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 12:27:12 +0100</lastBuildDate><atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physik_Q1.2</title>
+      <link>/doc/posts/physik_q1.2/</link>
+      <pubDate>Sun, 18 Dec 2022 12:27:12 +0100</pubDate>
+      
+      <guid>/doc/posts/physik_q1.2/</guid>
+      <description>Klausur Schwerpunkte Verhältnisbestimmung bei variablen Parametern
+Konstante Spannung / Konstante Ladung &amp;ldquo;halbe&amp;rdquo; Dielektriken
+Kondensatoren in Stromkreisen
+&amp;ldquo;Formelsammlung&amp;rdquo; $$ E = \frac {U}{d} \newline F_{el} = E \times q \newline I = \frac {\Delta Q}{\Delta t} \newline W = Q \times U \newline \frac{F}{Q} = \frac{U}{d} \newline W_{el} = \frac{1}{2} \times C \times U^{2} \ W_{pot} = qEx \ $$
+elektrische Stromstärke $$ I= \frac{\Delta Q}{\Delta t} \newline Q = It $$</description>
+      <content>&lt;h1 id=&#34;klausur-schwerpunkte&#34;&gt;Klausur Schwerpunkte&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verhältnisbestimmung bei variablen Parametern&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Konstante Spannung / Konstante Ladung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;halbe&amp;rdquo; Dielektriken&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kondensatoren in Stromkreisen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;formelsammlung&#34;&gt;&amp;ldquo;Formelsammlung&amp;rdquo;&lt;/h1&gt;
+&lt;p&gt;$$
+E = \frac {U}{d} \newline
+F_{el} = E \times q \newline
+I = \frac {\Delta Q}{\Delta t} \newline
+W = Q \times U \newline
+\frac{F}{Q} = \frac{U}{d} \newline
+W_{el} = \frac{1}{2} \times C \times U^{2} \
+W_{pot} = qEx \
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;elektrische-stromstärke&#34;&gt;elektrische Stromstärke&lt;/h1&gt;
+&lt;p&gt;$$
+I= \frac{\Delta Q}{\Delta t} \newline
+Q = It
+$$&lt;/p&gt;
+&lt;p&gt;Die Stromstärke ist die Menge an Ladung, die in einer gegebenen Zeit fließt. Ein Ampere ist ein Coulomb pro Sekunde.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;feldstärke&#34;&gt;Feldstärke&lt;/h1&gt;
+&lt;p&gt;Die Potentielle Energie eines geladenen Körpers (mit der Ladung &lt;em&gt;q&lt;/em&gt;) im Abstande &lt;em&gt;x&lt;/em&gt; zur negativen Platte:&lt;/p&gt;
+&lt;p&gt;$$
+W_{pot} = qEx
+$$&lt;/p&gt;
+&lt;p&gt;Im homogenen Feld des Plattenkondensators gilt für das Potential für jeden Punkt mit dem Abstand &lt;em&gt;x&lt;/em&gt; zur Platte:&lt;/p&gt;
+&lt;p&gt;$$
+\varphi = \frac{W_{pot}}{q} = E \times x
+$$&lt;/p&gt;
+&lt;h2 id=&#34;herleitung&#34;&gt;Herleitung&lt;/h2&gt;
+&lt;p&gt;$$
+U = \Delta \varphi = \varphi \space (weil \space \varphi &lt;em&gt;1 = 0) \
+U = \frac{W&lt;/em&gt;{pot}}{q} \
+U =Ed \
+E = \frac{U}{d}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bewegung-von-teilchen-im-längsfeld&#34;&gt;Bewegung von Teilchen im Längsfeld&lt;/h1&gt;
+&lt;h2 id=&#34;freier-fall&#34;&gt;&amp;ldquo;Freier Fall&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;In diesem Fall ist das Teilchen an der Patte, die die gleiche Ladung wie es selbst trägt.&lt;/p&gt;
+&lt;p&gt;Wenn das Teilchen den Kondensator komplett durchläuft, dann gilt:&lt;/p&gt;
+&lt;p&gt;$$
+W_{kin} = W_{el} \newline
+\frac{1}{2} \times m \times v = q \times E \times d \newline
+\frac{1}{2} \times m \times v = q \times U \newline
+v = \sqrt{\frac{q \times U \times 2}{m}}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;senkrechter-wurf-nach-unten&#34;&gt;&amp;ldquo;Senkrechter Wurf nach unten&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;In diesem Fall wird das Teilchen mit einer Anfangsgeschwindigkeit in Feldrichtung eingeschossen und weiter beschleunigt.&lt;/p&gt;
+&lt;h3 id=&#34;bewegungsgleichungen&#34;&gt;Bewegungsgleichungen&lt;/h3&gt;
+&lt;p&gt;$$
+s(t) = \frac{1}{2} \times v \times t + v_0 \times t \newline
+s(t) = \frac{1}{2}at^{2}+v_0t \newline
+s(t) = \frac{1}{2} \times (\frac{q}{m} \times \frac{U}{d}) \times t^{2} +v_0t
+$$$$
+v(t) = at+v_0 \newline
+a(t) = a \space  (konstant)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;energieansatz&#34;&gt;Energieansatz&lt;/h3&gt;
+&lt;p&gt;$$
+W_{kin,0} + W_{pot} = W_{kin} \newline
+\frac{1}{2}mv_0+qU = \frac{1}{2}mv^{2} \newline
+v = \sqrt{\frac{2(\frac{1}{2}mv_0^{2}+qU}{m}}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;senkrechter-wurf-nach-oben&#34;&gt;&amp;ldquo;Senkrechter Wurf nach oben&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Das negativ geladene Teilchen wird gegen die Feldrichtung mit einer Anfangsgeschwindigkeit eingeschossen und wird abgebremst.&lt;/p&gt;
+&lt;p&gt;Da man das Teilchen voll abbremst, entzieht man ihm alle Energie. Daher gilt hier der Energieansatz:&lt;/p&gt;
+&lt;p&gt;$$
+d_0 = &amp;ldquo;Bremsweg&amp;rdquo;
+$$$$
+W_{kin} = W_{el} \newline
+\frac{1}{2}mv_0^{2} = F_{el} \times d_0 \newline
+\frac{1}{2}mv_0^{2} = qEd_0 \newline
+\frac{1}{2}mv_0^{2} = q \frac{U}{d}d_0 | \times \frac{d}{q \times U}\newline
+d_0 = \frac{1}{2} \times \frac{mv_0^{2}d}{qU}
+$$&lt;/p&gt;
+&lt;p&gt;Die Bewegung des Teilchens ist vergleichbar mit dem Senkrechten Wurf nach oben, da die Feldkraft hier eine ähnliche Wirkung hat, wie die Schwerkraft beim Senkrechten Wurf nach oben.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bewegung-im-längs--und-querfeld&#34;&gt;Bewegung im Längs- und Querfeld&lt;/h1&gt;
+&lt;h2 id=&#34;braunsche-röhre&#34;&gt;Braunsche Röhre&lt;/h2&gt;
+&lt;p&gt;Die Heizspannung sorgt dafür, dass in einem evakuierten Glaskolben ein Draht (Glühdraht) zum glühen gebracht wird, sodass er Elektronen aussendet.&lt;/p&gt;
+&lt;p&gt;Es liegt eine Beschleunigungsspannung U an, die die Elektronen von der Glühkatode hin zur Anode (positiv) beschleunigt.&lt;/p&gt;
+&lt;p&gt;Hinweiß: Der negativ geladene Wehnelt-Zylinder umgibt die Glühkatode, um die Elektronen zu bündeln (auf ein Loch in der Anode zu fokussieren).&lt;/p&gt;
+&lt;p&gt;$$
+W_{el} = W_{kin} \newline
+v = \sqrt{\frac{2eU}{m_e}}
+$$&lt;/p&gt;
+&lt;p&gt;wenn&lt;/p&gt;
+&lt;p&gt;$$
+v_0 = 0 \newline
+U_b = &amp;ldquo;nicht\space zu \space groß&amp;rdquo; \newline
+m_e = &amp;ldquo;Elektronenmasse&amp;rdquo; \newline
+e = &amp;ldquo;Elementarladung&amp;rdquo; \newline
+v = &amp;ldquo;Geschwindigkeit \space des\space Elektrons&amp;rdquo;
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;kapazität-beim-plattenkondensator&#34;&gt;Kapazität (beim Plattenkondensator)&lt;/h1&gt;
+&lt;p&gt;Unter der Kapazität eines Kondensators versteht man den Quotienten aus der Ladung und der angelegten Spannung. Die Kapazität gibt also an, wie viel Ladung der Kondensator bei einer bestimmten Spannung speichern kann.&lt;/p&gt;
+&lt;p&gt;$$
+C = \frac{Q}{U}
+$$$$
+C \sim \frac{1}{d}
+$$$$
+C \sim A
+$$$$
+C = \Epsilon _0 \times \Epsilon _r \times \frac{A}{d}
+$$&lt;/p&gt;
+&lt;p&gt;Die Kapazität wird in Farad angegeben.&lt;/p&gt;
+&lt;p&gt;$$
+1 F = \frac{C}{V} = \frac{As}{V}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;dielektrikum&#34;&gt;Dielektrikum&lt;/h2&gt;
+&lt;p&gt;Ein Dielektrikum ist ein Isolator. Als Dielektrikum können nur nichtleitende Stoffe verwendet werden, da die Ladung anderenfalls abfließen würde.&lt;/p&gt;
+&lt;p&gt;Nutzen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;man kann höhere Spannungen anlegen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;die Kapazität wird gesteigert&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Im Vakuum ist die relative Dielektrizitätszahl 1. Alle anderen Stoffe haben eine größere relative Dielektrizitätszahl.&lt;/p&gt;
+&lt;p&gt;Einheitenbetrachtung der elektrischen Feldkonstante:&lt;/p&gt;
+&lt;p&gt;$$
+\Epsilon _0 = \frac{C}{Vm} = \frac{As}{Vm}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;konstante-ladung--konstante-spannung&#34;&gt;Konstante Ladung / Konstante Spannung&lt;/h2&gt;
+&lt;p&gt;Veränderung der Werte wenn ein Dielektrikum in den Kondensator geschoben wird.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kapazität C&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Die Kapazität erhöht sich&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C = \Epsilon _0 \times \Epsilon _r \times \frac{A}{d} = \Epsilon _r \times C_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ladung Q&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Erhöhung der Ladung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C &amp;gt; C_0 \newline
+C_0 = \frac{Q_0}{U} = Q_0 = C_0U \newline
+Q =  \frac{A}{d}U \newline
+Q = \Epsilon _r \times Q_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Q ist konstant lol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spannung U&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;U ist konstant ._.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verringerung der Spannung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C = \frac{Q}{U} \newline
+U = \frac{Q_0}{C} = \frac{Q_0}{\Epsilon _r \times C_0} = \frac{U_0}{\Epsilon _r} \newline&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C &amp;gt; C_0 \newline
+&amp;ldquo;also&amp;rdquo; \newline
+U &amp;lt; U_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feldstärke E&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Feldstärke bleibt konstant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+E = \frac{U}{d}=\frac{U_0}{d}=E_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verringerung von E&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+E = \frac{U_0}{\Epsilon _r \times d} = \frac{E}{\Epsilon _r} \newline
+E &amp;lt; E_0 \newline
+\Epsilon _r &amp;gt; 1
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+&amp;ldquo;wenn&amp;rdquo; \newline
+U &amp;lt; U_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;energie-im-plattenkondensator&#34;&gt;Energie im Plattenkondensator&lt;/h1&gt;
+&lt;p&gt;$$
+W = \frac{1}{2} \times \frac{Q^{2}}{C} = \frac{1}{2} QU =  \frac{1}{2} CU^{2}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;herleitung-1&#34;&gt;Herleitung&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/doc/doc/energie_kondensator.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;integralrechnung&#34;&gt;Integralrechnung&lt;/h3&gt;
+&lt;p&gt;$$
+W_{el} = \int _{0}^{Q}U \space dq =  \int _{0}^{Q} \frac{q}{C}\space dq
+= \frac{1}{C} \int _{0}^{Q}q \space dq = \frac{1}{2}\frac{Q^{2}}{C}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;streifenmethode&#34;&gt;&amp;ldquo;Streifenmethode&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;$$
+W_{ges} = \lim _{\Delta Q \to 0} \sum \Delta W_i =
+\lim _{\Delta Q \to 0} \sum \Delta Q \frac{Q_i}{C}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;kondensatoren-im-stromkreis&#34;&gt;Kondensatoren im Stromkreis&lt;/h1&gt;
+&lt;h2 id=&#34;parallelschaltungen&#34;&gt;Parallelschaltungen&lt;/h2&gt;
+&lt;p&gt;$$
+U_{ges} = U_1 + U_2 + U_n \
+Q_{ges} = Q_1 + Q_2 + Q_n \
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \
+C_{ges} = C_1 + C_2 + C_n \
+(\frac{1}{R_{ges}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_n} )&lt;br&gt;
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Die Ersatzkapazität von parallel geschalteten Kondensatoren ist die Summe der Einzelkapazitäten&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Durch das Parallelschalten von Kondensatoren steigt die Gesamtkapazität. Dies ist beim Plattenkondensator besonders verständlich, da die Plattenfläche, auf der sich die Ladungen ansammeln können, vergrößert.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reihenschaltungen&#34;&gt;Reihenschaltungen&lt;/h2&gt;
+&lt;p&gt;$$
+U_{ges} = U_1 + U_2 + U_n \
+Q_{ges} = &amp;ldquo;konst.&amp;rdquo; = Q_1 + Q_2 + Q_n \
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \
+C_{ges} = \frac{Q_{ges}}{U_1 + U_2 + U_n} \space | ()^{-1} \
+\frac{1}{C_{ges}} = \frac{U_1 + U_2 + U_n}{Q_{ges}} \
+\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_n} \
+(R_{ges} = R_1 + R_2 + R_n)
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;halbe-dielektriken&#34;&gt;&amp;ldquo;Halbe&amp;rdquo; Dielektriken&lt;/h1&gt;
+&lt;p&gt;Wenn der Plattenkondensator nicht vollständig vom Dielektrikum gefüllt ist, dann teilt man den Plattenkondensator in mehrere Kondensatoren auf, um die Gesamtkapazität zu berechnen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/doc/doc/halbe.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fall a)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Man betrachtet die zwei Ersatzkondensatoren, als ob sie in Reihe geschaltet wären&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fall b)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Man betrachtet die zwei Ersatzkondensatoren, als ob sie parallel geschaltet wären&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+d = &amp;ldquo;Plattenabstand&amp;rdquo; \
+c = &amp;ldquo;Höhe \space und \space Breite, \space des \space Ursprungskondensators&amp;rdquo;  \
+C_1 = \Epsilon _0 \frac{ca}{d} \
+C_2 = \Epsilon &lt;em&gt;r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
+C&lt;/em&gt;{ges} = C_1 + C_2 \
+C&lt;/em&gt;{ges} = \Epsilon _0 \frac{ca}{d} + \Epsilon _r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
+C&lt;/em&gt;{ges} = \frac{\Epsilon _0 ac + \Epsilon _r \Epsilon _0 (c^{2}-ac)}
+{d}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bestimmung-der-elementarladung-millikanversuch&#34;&gt;Bestimmung der Elementarladung (Millikanversuch)&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;geladenes Öltröpfchen im Plattenkondensator durch die Regulierung der anliegenden Spannung zum schweben bringen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Den Radius des Tropfens bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Die Fallgeschwindigkeit bei ausgeschaltetem Kondensator messen und dem Luftwiederstand die Größe bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Menge an Elementarladungen auf dem Tropfen bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Im Graphen ein Muster erkennen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+e = 1,602176634 \times 10^{-19}C
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h1&gt;
+&lt;h2 id=&#34;bewegungsgleichungen-1&#34;&gt;Bewegungsgleichungen&lt;/h2&gt;
+&lt;p&gt;$$
+s(t) = \frac{1}{2} \times a \times t^{2} \newline
+v(t) = \dot{s}(t) = a \times t \newline
+a(t) = \dot{v}(t) = \ddot{s}(t) = a
+$$&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Todo</title>
+      <link>/doc/posts/todo/</link>
+      <pubDate>Thu, 15 Dec 2022 18:47:56 +0100</pubDate>
+      
+      <guid>/doc/posts/todo/</guid>
+      <description>Bash todoscript, den ich geschrieben habe.
+#!/bin/bash # DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE # Version 2, December 2004 # Copyright (C) 2022 Lovis Rentsch &amp;lt;root@lovirent.eu&amp;gt; # Everyone is permitted to copy and distribute verbatim or modified # copies of this license document, and changing it is allowed as long # as the name is changed. # DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE # TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION # 0.</description>
+      <content>&lt;p&gt;Bash todoscript, den ich geschrieben habe.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#                    Version 2, December 2004&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copyright (C) 2022 Lovis Rentsch &amp;lt;root@lovirent.eu&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Everyone is permitted to copy and distribute verbatim or modified&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# copies of this license document, and changing it is allowed as long&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# as the name is changed.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#  0. You just DO WHAT THE FUCK YOU WANT TO.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#shellcolorcodes von stackoverflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RCol&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1m&amp;#39;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Text Reset&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Regular           Bold                Underline           High Intensity      BoldHigh Intens     Background          High Intensity Backgrounds&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Bla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;30m&amp;#39;&lt;/span&gt;;     BBla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;30m&amp;#39;&lt;/span&gt;;    UBla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;30m&amp;#39;&lt;/span&gt;;    IBla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;90m&amp;#39;&lt;/span&gt;;    BIBla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;90m&amp;#39;&lt;/span&gt;;   On_Bla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[40m&amp;#39;&lt;/span&gt;;    On_IBla&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;100m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Red&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;31m&amp;#39;&lt;/span&gt;;     BRed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;31m&amp;#39;&lt;/span&gt;;    URed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;31m&amp;#39;&lt;/span&gt;;    IRed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;91m&amp;#39;&lt;/span&gt;;    BIRed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;91m&amp;#39;&lt;/span&gt;;   On_Red&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[41m&amp;#39;&lt;/span&gt;;    On_IRed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;101m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Gre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;32m&amp;#39;&lt;/span&gt;;     BGre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;32m&amp;#39;&lt;/span&gt;;    UGre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;32m&amp;#39;&lt;/span&gt;;    IGre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;92m&amp;#39;&lt;/span&gt;;    BIGre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;92m&amp;#39;&lt;/span&gt;;   On_Gre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[42m&amp;#39;&lt;/span&gt;;    On_IGre&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;102m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Yel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;33m&amp;#39;&lt;/span&gt;;     BYel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;33m&amp;#39;&lt;/span&gt;;    UYel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;33m&amp;#39;&lt;/span&gt;;    IYel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;93m&amp;#39;&lt;/span&gt;;    BIYel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;93m&amp;#39;&lt;/span&gt;;   On_Yel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[43m&amp;#39;&lt;/span&gt;;    On_IYel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;103m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Blu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;34m&amp;#39;&lt;/span&gt;;     BBlu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;34m&amp;#39;&lt;/span&gt;;    UBlu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;34m&amp;#39;&lt;/span&gt;;    IBlu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;94m&amp;#39;&lt;/span&gt;;    BIBlu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;94m&amp;#39;&lt;/span&gt;;   On_Blu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[44m&amp;#39;&lt;/span&gt;;    On_IBlu&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;104m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;35m&amp;#39;&lt;/span&gt;;     BPur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;35m&amp;#39;&lt;/span&gt;;    UPur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;35m&amp;#39;&lt;/span&gt;;    IPur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;95m&amp;#39;&lt;/span&gt;;    BIPur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;95m&amp;#39;&lt;/span&gt;;   On_Pur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[45m&amp;#39;&lt;/span&gt;;    On_IPur&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;105m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Cya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;36m&amp;#39;&lt;/span&gt;;     BCya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;36m&amp;#39;&lt;/span&gt;;    UCya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;36m&amp;#39;&lt;/span&gt;;    ICya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;96m&amp;#39;&lt;/span&gt;;    BICya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;96m&amp;#39;&lt;/span&gt;;   On_Cya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[46m&amp;#39;&lt;/span&gt;;    On_ICya&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;106m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Whi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;37m&amp;#39;&lt;/span&gt;;     BWhi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;37m&amp;#39;&lt;/span&gt;;    UWhi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[4;37m&amp;#39;&lt;/span&gt;;    IWhi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;97m&amp;#39;&lt;/span&gt;;    BIWhi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[1;97m&amp;#39;&lt;/span&gt;;   On_Whi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[47m&amp;#39;&lt;/span&gt;;    On_IWhi&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\e[0;107m&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#wo die tododatei liegt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;todo&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~/todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;list&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#list variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    out&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#inhalt der tododatei&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cont&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;cat $todo&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#zeile, in der die Schleife beim Auslesen ist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    zeile&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;wc -l $todo | head -c 1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;+1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#Schleife, durch alle  Zeilen der TODO Datei (Mit Abfrage, wie viele Zeilen es sind)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;((&lt;/span&gt;i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; ; i &amp;lt; $zeile ; i++&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#entfernen der Dringlichkeitszahl&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        rmurg&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;head -$i $todo | tail +$i | cut -c3-&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#wenn &amp;#34;unwichtig, dann gelb&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;head -$i $todo | tail +$i | head -c 1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            out&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$out&lt;span style=&#34;color:#e6db74&#34;&gt; \n &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BYel&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;$rmurg&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#wenn mittel, dann rot&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;head -$i $todo | tail +$i | head -c 1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            out&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$out&lt;span style=&#34;color:#e6db74&#34;&gt; \n &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BRed&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;$rmurg&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#wenn wichtig, dann Lila&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;head -$i $todo | tail +$i | head -c 1&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            out&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$out&lt;span style=&#34;color:#e6db74&#34;&gt; \n &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BPur&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;$rmurg&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#wenn undefiniert, dann weiß und nicht &amp;#34;beschnitten&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            out&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$out&lt;span style=&#34;color:#e6db74&#34;&gt; \n &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;head -$i $todo | tail +$i&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#Inhalt der Listvariable ausgeben&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BWhi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;$out&lt;span style=&#34;color:#e6db74&#34;&gt; \n&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#inhalt der allgemeinen Hilfe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;help_genreal&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;   todo.sh [&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;flag&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;] [&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;argument&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;       &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;-a&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; / add / --add &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;      Priorität&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; TODO&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;       &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;-d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; / delete / --delete&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; Zeilennummer&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;       &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;-l&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; / list / --list&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;   &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BPur&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;todo.sh help [&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;flag&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BPur&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;   &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Red&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;todo.sh help &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; init&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hilfe&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$#&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#wenn kein Hilfsargument gegeben ist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        0&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            help_genreal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;#verschiedene Hilfsargumente&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -d | --delete | delete&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;   todo.sh &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;-d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; / delete / --delete &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Zeilennummer&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -a | --add | add&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;   todo.sh &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;BGre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;-a&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Gre&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; / add / --add &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Cya&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Dringlichkeit (1; 2; 3), TODO (keine Leerzeichen)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Whi&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;]&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            init&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;  \n Es wird empfohlen den &amp;#39;init&amp;#39; Befehl zu nutzen, wenn das Programm zum ersten Mal benutzt wird.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -l | --list | list&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;help list&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            *&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;#wenn ein ungültiges Hilfsagrument gegeben ist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                help_genreal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#erstmaliges benutzen&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;init&lt;span style=&#34;color:#f92672&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#datei erstellen&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    touch $todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#Beispielinhalt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1 Erstelle deine ersten TODOs&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; $todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;3 todo.sh -h&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; $todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$#&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#wenn kein Argument gegeben ist, verweise zu &amp;#34;Hilfe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    0&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        hilfe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#es sind 4 Argumente möglich&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; | &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; | 4&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;#add/Hinzufügen eines Punktes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -a | --add | add&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#wenn keine ausreichenden Argumente gegeben sind, verweise auf die Hilfe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#wenn ein weiterer Parameter gegeben ist, verweise auf die &amp;#34;add hilfe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; $3 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; $4 !&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; $2 &amp;gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    hilfe &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;add&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#setze die gegebenen Parameter (Dringlichkeit, TODO) in die gegebene TODO Datei&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$2&lt;span style=&#34;color:#e6db74&#34;&gt; &lt;/span&gt;$3&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; $todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -h | --help | help&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#wenn keine Spezifizierung vorgenommen, verweise auf die allgemeine Hilfe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    hilfe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#sonst die Hilfe zum gegeben Thema&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    hilfe &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$2&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -l | --list | list&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#list Funktion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            -d | --delete | delete&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#wenn keine zu löschende Zeile gegeben ist, verweise auf die Hilfe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    hilfe &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;delete&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#sonst frage nach Bestätigung&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    read -p &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Sicher? y/N &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#wenn Ja, dann lösche&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $REPLY &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~ ^&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Yy&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#75715e&#34;&gt;#(Formatierung)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        a&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$2&lt;span style=&#34;color:#e6db74&#34;&gt;d&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#75715e&#34;&gt;#lösche die gegebene Zeile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        sed -i &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$a&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; $todo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#75715e&#34;&gt;#und sende eine Löschbestätigung in Form einer aktualisierten Aufzählung der TODOs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $REPLY &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~ ^&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Nn&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#wenn nein&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#75715e&#34;&gt;#dann abbrechen&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Pur&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Abgebrochen&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; $REPLY &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#75715e&#34;&gt;#wenn nichts gegeben ist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        &lt;span style=&#34;color:#75715e&#34;&gt;# dann breche auch ab&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;Pur&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Abgebrochen&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            --init | init&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                list
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            *&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#75715e&#34;&gt;#falsche Parameter führen zur allgemeinen Hilfestellung&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                hilfe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                exit &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>Geschichte_Q1.2</title>
+      <link>/doc/posts/geschichte_q1.2/</link>
+      <pubDate>Tue, 13 Dec 2022 19:00:53 +0100</pubDate>
+      
+      <guid>/doc/posts/geschichte_q1.2/</guid>
+      <description>Weg zur Reichseinigung Zustand 1815-1867
+Ereignisse die Veränderungen hervorgerufen haben
+Zustand 1867-1871
+Faktoren der Veränderung
+Zustand 1817-1914
+Deutschland 1815-1867 Deutscher Bund (Nach der gescheiterten Revolution)
+37 Staaten
+4 Reichsstädte
+1862 Bismarck wird Ministerpräsident
+Heeresreform
+Verfassungskonflikt (Pattsituation zwischen der Volksvertretung und den Fürsten das Thema der Aufrüstung betreffen, Bismark löst den Konflikt, denn eine Solche Situation ist in der Preußischen Verfassung nicht vorgesehen. Durch ihn wird dann festgelegt, dass die Fürsten im Zweifelsfall das letzte Wort haben)</description>
+      <content>&lt;h1 id=&#34;weg-zur-reichseinigung&#34;&gt;Weg zur Reichseinigung&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Zustand 1815-1867&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ereignisse die Veränderungen hervorgerufen haben&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zustand 1867-1871&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faktoren der Veränderung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zustand 1817-1914&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;deutschland-1815-1867&#34;&gt;Deutschland 1815-1867&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Deutscher Bund (Nach der gescheiterten Revolution)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;37 Staaten&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;4 Reichsstädte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1862 Bismarck wird Ministerpräsident&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Heeresreform&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verfassungskonflikt (Pattsituation zwischen der Volksvertretung und den Fürsten das Thema der Aufrüstung betreffen, Bismark löst den Konflikt, denn eine Solche Situation ist in der Preußischen Verfassung nicht vorgesehen. Durch ihn wird dann festgelegt, dass die Fürsten im Zweifelsfall das letzte Wort haben)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Eisen &amp;amp; Blut Konzept&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Die großen Fragen werden mit Gewalt gelöst&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ziel: Vormachtstellung Preußens in Deutschland&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1864 Krieg Österreich &amp;amp; Preußen gegen Dänemark (Sieger Ö/P)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1866 Bruderkrieg Österreich gegen Preußen (Sieger P)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deutschland-1867-1871&#34;&gt;Deutschland 1867-1871&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Norddeutscher Bund (Verteidigungsbündnisse mit süddeutschen Staaten)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preußen hat die Vormachtstellung in Deutschland und ist europäische Großmacht&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1871 Deutsch-Französischer Krieg&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Emser Depeche&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;preußischer Oberbefehl&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Österreich neutral&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deutschland-1817-1914&#34;&gt;Deutschland 1817-1914&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Deutsches Reich (ohne Österreich)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reichsgründung in Versaille (Erniedrigung Frankreichs)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preußischer König wird deutscher Kaiser&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Preußischer Ministerpräsident wird deutscher Kanzler&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;verfassung-und-gesellschaft-im-kaiserreich&#34;&gt;Verfassung und Gesellschaft im Kaiserreich&lt;/h1&gt;
+&lt;h2 id=&#34;gesellschaft-im-kaiserreich&#34;&gt;Gesellschaft im Kaiserreich&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/doc/doc/gesellschaft.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;verfassung-von-1871&#34;&gt;Verfassung von 1871&lt;/h2&gt;
+&lt;h3 id=&#34;progressive-elemente&#34;&gt;progressive Elemente&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;allgemeine Wahlen (Reichstag)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;freie und geheime Wahlen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reichstag hat das Budgetrecht&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gewaltenteilung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rechststaatlichkeit&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;konservative-elemente&#34;&gt;konservative Elemente&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kaiser ist das Staatsoberhaupt&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;kann den Reichstag auflösen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ernennt den Kanzler&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bundesrats Vorsitzender&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ernennt die Staatssekretäre&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;militärischer Oberbefehl&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;starke Stellung des Bundesrates&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;kann den Reichstag mit dem Kaiser zusammen auflösen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ist an der Gesetzgebung beteiligt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Souverän des Volkes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kann Völkerrechtsverträge unterschreiben&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kanzler&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vorsitz im Bundesrat&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Verlängerter Arm des Kaisers&amp;rdquo;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abhängig vom Vertrauen des Kaisers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;--obrigkeitsstaat&#34;&gt;-&amp;gt; Obrigkeitsstaat&lt;/h4&gt;
+&lt;h2 id=&#34;unterschiede-der-verfassungen&#34;&gt;Unterschiede der Verfassungen&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;1848&lt;/th&gt;
+&lt;th&gt;1871&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Legislative&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wahlen in 2 Gremien&lt;/td&gt;
+&lt;td&gt;Wahlen im Reichstag&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kaiser ist das Staatsoberhaupt&lt;/td&gt;
+&lt;td&gt;Kaiser ist das Staatsoberhaupt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Volksvertreter haben Macht&lt;/td&gt;
+&lt;td&gt;Volksvertreter haben nur scheinbar Einfluss&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;weniger Macht bei den Fürsten&lt;/td&gt;
+&lt;td&gt;Bundesrat und und weitere Kompetenzen bim Bundesrat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;innenpolitik-bismarks&#34;&gt;Innenpolitik Bismarks&lt;/h1&gt;
+&lt;h2 id=&#34;parteien&#34;&gt;Parteien&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Partei&lt;/th&gt;
+&lt;th&gt;Wähler&lt;/th&gt;
+&lt;th&gt;Verfassung und Verwaltung&lt;/th&gt;
+&lt;th&gt;Sozial- und Wirtschaftspolitik&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;SPD&lt;/td&gt;
+&lt;td&gt;Arbeiter&lt;/td&gt;
+&lt;td&gt;Abschaffung der Klassenherrschaft; allgemeines Wahlrecht; direkte Gesetzgebung des Volkes; freie Meinungsäußerung; Frauenrechte&lt;/td&gt;
+&lt;td&gt;Vergesellschaftlichung des Eigentums; steigende Einkommens und Vermögenssteuer; Arbeiterschutzgesetze; staatlich Sozialversicherungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zentrum&lt;/td&gt;
+&lt;td&gt;katholischer Wähler aus allen Schichten&lt;/td&gt;
+&lt;td&gt;Erhaltung der Selbstständigkeit der Kirche, konfessionale Schulen, Selbstbestimmung der Bundesländer&lt;/td&gt;
+&lt;td&gt;Förderung des Mittel- und Bauernstandes, Beschränkung der Ausgaben zu Kriegszwecken&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fortschrittliche Volkspartei&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;Neuer&amp;rdquo; Mittelstand der Angestellten, freiberufliche Bürger&lt;/td&gt;
+&lt;td&gt;Gleichberechtigung der Staatsbürger vor dem Gesetz und in der Verwaltung, allgemeines Wahlrecht, Festigung der Rechte der Volksvertretung, Trennung von Kirche und Staat&lt;/td&gt;
+&lt;td&gt;progressive Einkommenssteuer, Arbeiterschutz, Hebung der Lage der Lohnarbeiter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nationalliberale Partei&lt;/td&gt;
+&lt;td&gt;protestantisches und industrielles Bürgertum&lt;/td&gt;
+&lt;td&gt;Unantastbarkeit des Reichswahlrechts, Bekämpfung des Zentrums&lt;/td&gt;
+&lt;td&gt;Schutzzölle in Maßen, Kräftigung des Mittelstandes, Koaltitonsrecht&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Deutsche konservative Partei&lt;/td&gt;
+&lt;td&gt;Preußische Großgrundbesitzer, Unternehmer, völkisch ausgerichtete Gruppen des Mittelstandes&lt;/td&gt;
+&lt;td&gt;Erhalt der Monarchie, Sicherung der bürgerlichen Freiheiten, Kampf gegen Juden, Zusammenarbeit von Saat und Kirche, gegen Sozialdemokratie&lt;/td&gt;
+&lt;td&gt;konfessionelle christliche Volksschulen, Zollschutz, Stärkung des Mittelstandes, Sozialgesetzgebung&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;bismarks-verhältnis-zu-den-parteien&#34;&gt;Bismarks Verhältnis zu den Parteien&lt;/h2&gt;
+&lt;p&gt;Bismark hat eine streng konservative Einstellung, allerdings hat er auch mit anderen Parteien zusammengearbeitet. Er hat immer mit den Parteien zusammengearbeitet, die ihm dabei helfen seine Derzeitigen Ziele durchzusetzen. Das ist möglich, da die Parteien keinen echten Einfluss auf die Regierung des Reiches haben, sonder stark vom Zuspruch des Kanzlers im Bundesrat abhängig sind um ihre Interessen durchzusetzen.&lt;/p&gt;
+&lt;p&gt;Viele Innenpolitischen Projekte Bismarks sind gescheitert, aber der Reichskanzler ist nicht von der Zustimmung des Volkes abhängig, sondern nur vom Vertrauen des Kaisers.&lt;/p&gt;
+&lt;h2 id=&#34;wirtschaftspolitik&#34;&gt;Wirtschaftspolitik&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ziel:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Schaffung eines am Freihandel orientierten Wirtschaftssystem (möglich durch den &amp;ldquo;Gründerboom&amp;rdquo;, ein wirtschaftlicher Aufschwung nach der Reichsgründung)&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Maßnahmen:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Herabsetzung der Außenzölle&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;einheitliche Währung (Zentralbank)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rechtseinheit im Reich&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Ergebnis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Erfolgreich bis zur Wirtschaftskriese 1874&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Zusammenarbeit mit den Liberalen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ziel:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Schutz der Wirtschaft&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Maßnahmen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Schutzzölle&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verstaatlichungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Auflösung von Kartellen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Zusammenarbeit mit dem Zentrum&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;kulturkampf&#34;&gt;&amp;ldquo;Kulturkampf&amp;rdquo;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ziel:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Reduzierung der Kirche (des Zentrums, Trennung von Kirche und Staat)&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Maßnahmen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Auflösung der Orden&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ausbildung Geistlicher unter staatlicher Aufsicht&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;staatliche Schulaufsicht&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Einstellung staatlicher Zahlungen an die Kirche&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Ergebnis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Erfolglos (Anstieg der Wähler beim Zentrum)&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Zusammenarbeit mit den Liberalen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;sozialistengesetz&#34;&gt;&amp;ldquo;Sozialistengesetz&amp;rdquo;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ziel&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Schwächung der Sozialdemokraten&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Maßnahmen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Verbot der parteinahen Gewerkschaften und der Parteipresse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Ergebnis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;nicht erfolgreich (Stetige Zunahme der Wähler für die (Sozial-)Demokraten)&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Zusammenarbeit mit den Konservativen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;sozialgesetzgebung&#34;&gt;&amp;ldquo;Sozialgesetzgebung&amp;rdquo;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ziel:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Schwächung der Sozialdemokraten, Integration der Arbeiter&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Maßnahmen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Krankenversicherungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unfallversicherungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Altersvorsorge&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Ergebnis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;soziale Sicherheit für Arbeiter&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Zusammenarbeit mit dem Zentrum&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;anderes&#34;&gt;Anderes&lt;/h1&gt;
+&lt;p&gt;&amp;ldquo;Ultramontanismus&amp;rdquo;: (hinter den Bergen (Alpen)) Bestreben des Papstes in Europa (Zentraleuropa) mehr (weltlichen) Einfluss zu bekommen&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Realpolitik&amp;rdquo;: Politik, die sich am möglichen orientiert und auf ideale Postulate (Vorderungen) verzichtet&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Großdeutsche Lösung&amp;rdquo;: Deutschland unter Österreichischer Vorherrschaft&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Kleindeutsche Lösung&amp;rdquo;: Deutschland unter Preußischer Vorherrschaft (beschlossen)&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Deutsch_Q1.2</title>
+      <link>/doc/posts/deutsch_q1.2/</link>
+      <pubDate>Tue, 06 Dec 2022 19:56:39 +0100</pubDate>
+      
+      <guid>/doc/posts/deutsch_q1.2/</guid>
+      <description>Romantik Vertreter Vornehmlich jung, interlektuell, männlich
+Ausgangspunkt:
+Jena
+Grimms
+Eichendorff
+A.W Schlegel
+F. Schlegel
+Novalis
+ETA Hoffmann
+Brentano
+Begriff/ Epochenbezeichnung Etymologie: romanhaft, ursprünglich negativ konnotiert: mit sprunghaftem Handlungsablauf verbunden
+Sozialgeschichte Napoleonische Fremdherrschaft
+Hinwendung zum Katholizismus, Patriotismus
+Brüder Grimm: Würterbuck, Märchensammlung Programmatik (Definitionen, Symbole, Themen) Definitionen Philister
+Im Alltagsleben aufgehend, vordergründig, ökonomisch orientiert, engstirnig Säkularisierung
+Ersatz für christlichen Glauben gesucht
+Dichter als Seher und Propheten
+Poesie und Kunst als neuer Glaube</description>
+      <content>&lt;h1 id=&#34;romantik&#34;&gt;Romantik&lt;/h1&gt;
+&lt;h2 id=&#34;vertreter&#34;&gt;Vertreter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vornehmlich jung, interlektuell, männlich&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ausgangspunkt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jena&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Grimms&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Eichendorff&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A.W Schlegel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F. Schlegel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Novalis&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ETA Hoffmann&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Brentano&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;begriff-epochenbezeichnung&#34;&gt;Begriff/ Epochenbezeichnung&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Etymologie&lt;/strong&gt;: romanhaft, ursprünglich negativ konnotiert: mit sprunghaftem Handlungsablauf verbunden&lt;/p&gt;
+&lt;h2 id=&#34;sozialgeschichte&#34;&gt;Sozialgeschichte&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Napoleonische Fremdherrschaft&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hinwendung zum Katholizismus, Patriotismus&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brüder Grimm: Würterbuck, Märchensammlung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;programmatik-definitionen-symbole-themen&#34;&gt;Programmatik (Definitionen, Symbole, Themen)&lt;/h2&gt;
+&lt;h3 id=&#34;definitionen&#34;&gt;Definitionen&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Philister&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Im Alltagsleben aufgehend, vordergründig, ökonomisch orientiert, engstirnig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Säkularisierung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ersatz für christlichen Glauben gesucht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dichter als Seher und Propheten&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Poesie und Kunst als neuer Glaube&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;romantische Ironie&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Offenlegung des Schaffens im Werk&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grenze zwischen Realem und fantastischem wird bewusst wahrgenommen und aufgegriffen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;der Autor steht über dem Werk&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ziel der romantischen Sehnsucht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Volkommenheits- / Einheitserfahrung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rückkehr zu Gott (bei einigen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;themen&#34;&gt;Themen&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sehnsucht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;zweite Welt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unendlichkeit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zweites Augenpaar (imaginär)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abgrenzung von&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ratio&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vernunft&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hinwendung zu&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fantasie&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Naturschwärmerei&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;mystische Welten&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dunkelheit&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vernunft als Auslöser für&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Niedergang (franz. Rev., Krieg)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entzauberung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verlust von Geborgenheit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Angst vor &amp;ldquo;Objektivierung&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verzweckung/Verwissenschaftlichung der Natur&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Suche nach ursprünglicher, mythischer Einheitserfahrung mit der Natur (hergestellt durch Poesie)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;symbole&#34;&gt;Symbole&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;blaue Blume&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Symbol für Sehnsucht&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unerreichbarkeit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Liebe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lebenserfahrung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;vgl &amp;ldquo;mystische Einheit&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nacht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Projektionsraum für Todessehnsucht (&amp;lsquo;Hymnen der Nacht)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;für dunkle Seiten der menschlichen Psyche&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zufluchtsort für Ruhe, Frieden, mythische Harmonie (&amp;ldquo;Mondnacht&amp;rdquo;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kontrast zum Tag (Licht = Aufklärung)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zweites Augenpaar (Dämmerung/Dunkelheit führen zu anderen Sichtweisen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wandern&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Flucht aus dem Alltag&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verbindung mit der Natur&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selbstfindung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sehnsucht nach dem Absoluten&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;gedichtsarten&#34;&gt;Gedichtsarten&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Art der Lyrik&lt;/th&gt;
+&lt;th&gt;Erklärung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Alltagslyrik&lt;/td&gt;
+&lt;td&gt;Lyrik, die im Alltag eine Rolle spielt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Arbeiterlyrik&lt;/td&gt;
+&lt;td&gt;Lyrik von Arbeitern und /oder zu Themen aus der Arbeitswelt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bildgedichte&lt;/td&gt;
+&lt;td&gt;Gedichte, die einen Text in bildhafter Form wiedergeben&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dinggedichte&lt;/td&gt;
+&lt;td&gt;Gedichte, in denen ein Ding, zB ein Gegenstand behandelt wird&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Erlebnislyrik&lt;/td&gt;
+&lt;td&gt;Form der Lyrik, die vor allem im Sturm und Drang angesiedelt ist. Sie erweckt den Anschein der Unmittelbarkeit des Dargestellten und der seelischen Stimmung des lyrischen Ich&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gebrauchslyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, die im täglichen Leben eine Rolle spielen (Geburtstagsgedichte, Kirchenlieder, Werbung)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gedankenlyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, die Gedankenüber die Welt zum Inhalt haben&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kinderlyrik&lt;/td&gt;
+&lt;td&gt;Gedichte für Kinder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Krieglyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, die das Kriegserlebnis thematisieren oder Krieg stilisieren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Liebeslyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, die die Liebe als Thema haben&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mundartlyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, die in einer Mundart verfasst sind&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Naturlyrik&lt;/td&gt;
+&lt;td&gt;Gedichte, in denen Natur thematisiert wird&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Politische Lyrik&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Religiöse Lyrik&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;poetologische Gedichte&lt;/td&gt;
+&lt;td&gt;Gedichte, die den Prozess des Dichtens zum Thema haben&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ideengedicht&lt;/td&gt;
+&lt;td&gt;Gedichte, die eine Idee, einen Gedanken oder eine Denkweise transportieren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;fachbegriffe-und-formulierungshilfen&#34;&gt;Fachbegriffe und Formulierungshilfen&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chiffre&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;geheimes Schriftzeichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;eigentlich Ziffer&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neologismus&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Wortneubildung oder WOrtneuschöpfung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Heizpilz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Knabenmorgenblütenträume&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;suggerieren&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;gezielt einen bestimmten Eindruck entstehen lassen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;gedichtsanalyse-und-interpretation&#34;&gt;Gedichtsanalyse und Interpretation&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Einleitung&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;W-Fragen, Thema, Deutungshypothese, Schwerpunktsetzung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;allgemeines zur Form, kommunikative Situation, Gedichtstyp/Art des Gedichts&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Hauptteil&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Zusammenfassung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gedankengang &amp;gt; Inhalt&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sichtweise/Perspektive/kommunikative Situation berücksichtigen&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;eigene Wort, keine Zitate&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kenntlichmachung der &lt;strong&gt;Sinnabschnitte&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;indirekte Rede für Inhalte/Konzepte der Gedankenwelt oder aber verknappende Umschreibung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyse und Interpretation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;aspektorientiert &amp;raquo; chronologisch&lt;/strong&gt;, aber Logik des Gedankengangs nicht vernachlässigen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;form follows function&amp;rdquo; Ordnung nach Form (Strukturebene, akustische Ebene, bildhafte Ebene,&amp;hellip;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;steigernde Anordnung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Belegbarkeit!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;je nach Schwerpunkt&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ideengeschichte/Epochengeschichte - Einordnung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Schluss&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;bündelnd, &lt;strong&gt;abstrahierend&lt;/strong&gt;, pointiert, Rückbindung zur Deutungshypothese/Schwerpunkt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;vermeide wörtliche Wiederholung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;stilistische-mittel&#34;&gt;Stilistische Mittel&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Stilmittel&lt;/th&gt;
+&lt;th&gt;Erklärung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Allegorie&lt;/td&gt;
+&lt;td&gt;Darstellung abstrakter Begriffe durch ein komplexes Bild&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alliteration&lt;/td&gt;
+&lt;td&gt;gleicher Anfangslaut benachbarter Wörter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Anapher&lt;/td&gt;
+&lt;td&gt;Wiederholung des gleichen Wortes am Anfang von Sätzen oder Satzteilen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Antithese&lt;/td&gt;
+&lt;td&gt;Bezeichnung für einen Gegenstand (&amp;ldquo;Harte Schale, weicher Kern&amp;rdquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apostrophe&lt;/td&gt;
+&lt;td&gt;direkte Rede an eine Person/den Leser&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chiasmus&lt;/td&gt;
+&lt;td&gt;Überkreuzende Anordnung von Satzteilen/Sätzen, die einander entsprechen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hyperbel&lt;/td&gt;
+&lt;td&gt;starke Übertreibung&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Klimax&lt;/td&gt;
+&lt;td&gt;Steigernde Aufzählung mit mindestens drei Gliedern&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Metapher&lt;/td&gt;
+&lt;td&gt;bildhafte Übertragung einer Bedeutung&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Parallelismus&lt;/td&gt;
+&lt;td&gt;gleicher Satzbau von mindestens zwei Satzteilen, Gegensatz zum Chiasmus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rethorische Frage&lt;/td&gt;
+&lt;td&gt;Scheinfrage, auf die es schon eine klare Antwort gibt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vergleich&lt;/td&gt;
+&lt;td&gt;Verbindung von zwei ähnlichen Bildern durch ein &amp;ldquo;als&amp;rdquo; oder &amp;ldquo;wie&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Personifikation&lt;/td&gt;
+&lt;td&gt;Vermenschlichung von Gegenständen/abstrakten Begriffen/Tieren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;metrum-versmaß&#34;&gt;Metrum (Versmaß)&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Jambus&lt;/th&gt;
+&lt;th&gt;xX&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Trochäus&lt;/td&gt;
+&lt;td&gt;Xx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Daktylus&lt;/td&gt;
+&lt;td&gt;Xxx&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Anapäst&lt;/td&gt;
+&lt;td&gt;xxX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Chemie_Q1.2</title>
+      <link>/doc/posts/chemie_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 21:09:53 +0100</pubDate>
+      
+      <guid>/doc/posts/chemie_q1.2/</guid>
+      <description>elektrophile Addition
+Alkohole
+Allgemeines
+Bromprobe
+Kalkwassserprobe
+Silbernitratprobe
+RedOx
+Orbitalmodell
++I Effekt
+elektrophile Addition Mechanismus: Im Prinzip verläuft der Mechanismus nach 3 Schritten:
+Die Bildung des pi-Komplexes Das Brom-Molekül tritt in Wechselwirkung mit den Elektronenreichen pi-elektronen der Doppelbindung des Alkens. Dabei wird das Brom-Molekül polarisiert, es entsteht ein pi-Komplex.
+Bildung des cyklischen sigma-Komplexes: Dabei wird die Br-Br-Bindung heterolytisch gespalten aufgrund des elektrophilen Angriffs des positiv polarisierten Brom-Atoms gespalten. Es entsteht ein cyklischen Bromionium-Ion und ein Bromid-Ion.</description>
+      <content>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;elektrophile Addition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alkohole&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Allgemeines&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bromprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kalkwassserprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Silbernitratprobe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RedOx&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Orbitalmodell&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;+I Effekt&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;elektrophile-addition&#34;&gt;elektrophile Addition&lt;/h2&gt;
+&lt;h4 id=&#34;mechanismus&#34;&gt;Mechanismus:&lt;/h4&gt;
+&lt;p&gt;Im Prinzip verläuft der Mechanismus nach 3 Schritten:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Die Bildung des pi-Komplexes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Das Brom-Molekül tritt in Wechselwirkung mit den Elektronenreichen pi-elektronen der Doppelbindung des Alkens. Dabei wird das Brom-Molekül polarisiert, es entsteht ein pi-Komplex.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Bildung des cyklischen sigma-Komplexes:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Dabei wird die Br-Br-Bindung heterolytisch gespalten aufgrund des elektrophilen Angriffs des positiv polarisierten Brom-Atoms gespalten. Es entsteht ein cyklischen Bromionium-Ion und ein Bromid-Ion.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Nukleophiler Rückseitenangriff&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Anschließend greift das Bromid-Ion das Bromioniom-Ion nukleophil von der Rückseite an, da die Vorderseite durch das Brom -Atom sterisch gehindert ist. Es entsteht ein E-Produkt.&lt;/p&gt;
+&lt;h4 id=&#34;zum-namen&#34;&gt;Zum Namen&lt;/h4&gt;
+&lt;p&gt;Der elektrophile Angriff ist namensgebend für den Mechanismus. Das Adjektiv beschreibt allgemein, welches Teilchen angreift. Elektrophile sind Teilchen mit Elektronenmangel, die e⁻-Reichen Teilchen (Mehrfachbindungen, Anionen) angreifen.&lt;/p&gt;
+&lt;p&gt;Nukleophile sind Teilchen mit Elektronenüberschudd (Anionen, freie EPs), die e⁻-arme Teilchen (Kationen) angreifen.&lt;/p&gt;
+&lt;p&gt;Bei Additionsreaktionen werden mindestens zwei Moleküle vereinigt, ohne das dabei Nebenprodukte anfallen. Dabei werden Mehrfachbindungen aufgespalten. Das Das Substantiv gilt bei Mechanismen die Art an, wie die Teilchen reagieren (Substitution, Addition, Eleiminierung).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;alkoholealkanole&#34;&gt;Alkohole/Alkanole&lt;/h2&gt;
+&lt;p&gt;Substitution eines H-Atoms eines Alkans durch die OH-Gruppe.&lt;/p&gt;
+&lt;p&gt;$$C_nH_{2n+2}O$$  $$C_nH_{2n+1}OH$$&lt;/p&gt;
+&lt;p&gt;Alkene unterscheiden sich kaum von Alkenen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;unpolar&lt;/p&gt;
+&lt;p&gt;-&amp;gt; es wirken Van-Der-Vaals Kräfte&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;bei vergleichbarer Länge&lt;/p&gt;
+&lt;p&gt;-&amp;gt; ähnliche Löslichkeit und Siedepunkte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;E/Z-Isomere unterscheiden sich aufgrund ihrer ähnlichen Struktur nur geringfügig in den physikalischen Eigenschaften.&lt;/p&gt;
+&lt;h4 id=&#34;nomenklatur&#34;&gt;Nomenklatur&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Längste C-Kette&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Priorität (Nummerierung der C-Atome)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;-OH-Gruppen &amp;gt; C=C-Doppelbindungen &amp;gt; C-C-Dreifachbindungen &amp;gt; Halogene &amp;gt; C-C-Bindungen&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Reihenfolge (der Nennung)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alkylgruppen(Alphabetisch)-Kettenname-Mehrfachbindungen-OH&lt;/p&gt;
+&lt;h4 id=&#34;benennung&#34;&gt;Benennung&lt;/h4&gt;
+&lt;p&gt;Stellung der OH-Gruppe&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;primärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sekundärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tertiärer Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Benennung nach dem Bindungspartner(C-Atom), an das die OH-Gruppe binded.&lt;/p&gt;
+&lt;p&gt;Anzahl der OH-Gruppen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;einwertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zweiwertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;n-Wertiger Alkohol&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Brom-Probe&lt;/p&gt;
+&lt;p&gt;Die Brom-Probe ist positiv, wenn die Färbung des Bromwassers im unbekannten Stoff ohne Belichtung verschwindet. Das bedeutet, dass der Stoff Mehrfachbindungen hat.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kalkwasserprobe&lt;/p&gt;
+&lt;p&gt;Nachweiß von $$CO_2$$&lt;/p&gt;
+&lt;p&gt;$$Ca(HO)_2+CO_2 \longrightarrow CaCO_3+H_2O$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baeyer-Probe&lt;/p&gt;
+&lt;p&gt;Versetzt man die Probe mit der violetten Baeyer-Reagenz, und sie verfärbt sich braun, so enthält die Probe Mehrfachbindungen.&lt;/p&gt;
+&lt;p&gt;RedOx :&lt;/p&gt;
+&lt;p&gt;$$2MnO_4⁻ + 4H_2O + 3C_2H_4 \longrightarrow 2MnO_2 + 2OH⁻ + 3C_2H_60_2$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;RedOx-Reaktionen aufstellen&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Edukte und Produkte ausgleichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;e⁻-Ausgleichen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ladungsausgleich&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;im sauren Milieu mit H⁺&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;im alkalischen Milieu mit OH⁻&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;O-Atome ausgleichen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;orbitalmodell&#34;&gt;Orbitalmodell&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;sp³&lt;/th&gt;
+&lt;th&gt;sp²&lt;/th&gt;
+&lt;th&gt;sp&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bindungspartner&lt;/td&gt;
+&lt;td&gt;4 Partner&lt;/td&gt;
+&lt;td&gt;3 Partner&lt;/td&gt;
+&lt;td&gt;2 Partner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sigma-Bindungen&lt;/td&gt;
+&lt;td&gt;4 Bindungen&lt;/td&gt;
+&lt;td&gt;3 Bindungen&lt;/td&gt;
+&lt;td&gt;2 Bindungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pi-Bindungen&lt;/td&gt;
+&lt;td&gt;0 Bindungen&lt;/td&gt;
+&lt;td&gt;1 Bindung&lt;/td&gt;
+&lt;td&gt;2 Bindungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;räumliche Ausdehnung&lt;/td&gt;
+&lt;td&gt;Tetraeder&lt;/td&gt;
+&lt;td&gt;planar&lt;/td&gt;
+&lt;td&gt;linear&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i-effekt&#34;&gt;+I-Effekt&lt;/h2&gt;
+&lt;p&gt;+I-Effekte sind der Grund für die verschiedenen Reaktivitäten von primären/sekundären/tertiären C-Atomen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Methylgruppen &amp;ldquo;schieben&amp;rdquo; Elektronen zum C-Atom mit Elektronenmangel (&lt;strong&gt;Hyperkonjugation&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Atome mit hoher EN (zB. Halogene) haben den gegenteiligen Effekt, man nennt ihn den -I-Effekt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Der Effekt wird schwächer, je weiter man entfernt ist (~3 Benachbarte Atome). Die unterschiedlichen Substituenten beeinflussen die Ladungsdichte. Substituenten mit hoher EN entziehen e⁻ und verringern die Ladungsdichte. Substituenten wie Alkylgruppen schieben e⁻ und erhöhen die Ladungsdichte (+I-Effekt). Dadurch wird der geschwindigkeitsbestimmende Schritt der pi-Komplexbildung erschwert bzw erleichtert.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mathe_Q1.2</title>
+      <link>/doc/posts/mathe_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 21:06:08 +0100</pubDate>
+      
+      <guid>/doc/posts/mathe_q1.2/</guid>
+      <description>Themen Integrieren
+graphisch
+algebraisch
+Logarithmen /e-Funktionen
+lineare Substitution
+Fläche zwischen 2 Graphen
+Sachaufgaben
+3D
+Nullstellen und Schnittpunkte berechnen
+Parameteraufgaben
+Bestandsrekonstruktionen
+Geschwindigkeit -&amp;gt; Weg
+Wachstumsrate -&amp;gt; Höhe/ Population
+Anfangswerte
+Modellieren
+(Alles kann auch im hilfsmittelfreien Teil abgefragt werden)
+Integrieren Integrieren ist die gegensätzliche Aktion zum Ableiten. Beim Ableiten wird der Grad der Funktion um 1. Grad geringer, beim Integrieren wird der Grad um 1. Grad erhöht.
+Bsp:
+$$ f(x)= x²$$
+$$F(x)= \frac{1}{3}x³+c$$</description>
+      <content>&lt;h1 id=&#34;themen&#34;&gt;Themen&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Integrieren&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;graphisch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;algebraisch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Logarithmen /e-Funktionen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lineare Substitution&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fläche zwischen 2 Graphen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sachaufgaben&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3D&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nullstellen und Schnittpunkte berechnen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parameteraufgaben&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bestandsrekonstruktionen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Geschwindigkeit -&amp;gt; Weg&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wachstumsrate -&amp;gt; Höhe/ Population&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anfangswerte&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modellieren&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Alles kann auch im hilfsmittelfreien Teil abgefragt werden)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;integrieren&#34;&gt;Integrieren&lt;/h2&gt;
+&lt;p&gt;Integrieren ist die gegensätzliche Aktion zum Ableiten. Beim Ableiten wird der Grad der Funktion um 1. Grad geringer, beim Integrieren wird der Grad um 1. Grad erhöht.&lt;/p&gt;
+&lt;p&gt;Bsp:&lt;/p&gt;
+&lt;p&gt;$$ f(x)= x²$$&lt;/p&gt;
+&lt;p&gt;$$F(x)= \frac{1}{3}x³+c$$&lt;/p&gt;
+&lt;p&gt;Wenn man die Stammfunktion F(x) ableitet muss dabei die Ausgangsfunktion f(x) rauskommen. C ist dabei die Konstante, die beim Ableiten wegfällt. Häufig spricht man von $$I_0$$ oder $$A_0$$, das sind die besonderen Stammfunktionen, bei denen gilt:&lt;/p&gt;
+&lt;p&gt;$$I_0(0)=0$ oder $A_0(0)= 0$$&lt;/p&gt;
+&lt;p&gt;Häufig ergibt sich $c$ aus dem Sachzusammenhang.&lt;/p&gt;
+&lt;p&gt;Im Sachzusammenhang lässt sich aus der Geschwindigkeitsfunktion über das Ableiten die Beschleunigungsfunktion errechenen und über das Integrieren die Ortsfunktion.&lt;/p&gt;
+&lt;p&gt;Beispiele für das Integrieren:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$$x³ = [ \frac{1}{4}x⁴]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$\sqrt[3]{x²} = x^{\frac{2}{3}} = [\frac{3}{5}x^{\frac{5}{3}}]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$e^{x}= [e^x]&amp;rsquo;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$e^{2+4x} = (2+4x)&amp;rsquo; \times x^{2+4x} = 4 \times e^{2+x}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rechenregeln-der-integrale&#34;&gt;Rechenregeln der Integrale&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Potenzregel&lt;/p&gt;
+&lt;p&gt;$$\int(x^n)dx = \frac{x^{n-1}}{n+1}+C$$&lt;/p&gt;
+&lt;p&gt;$${n \epsilon \mathbb{Z}, n \neq -1}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Summenregel&lt;/p&gt;
+&lt;p&gt;$$\int(f(x)+g(x))dx = \int f(x)dx + \int g(x)dx = F(x)+G(x)$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faktorregel&lt;/p&gt;
+&lt;p&gt;$$\int (a \times f(x)dx = a \times \int f(x)dx = a\times F(x)$$&lt;/p&gt;
+&lt;p&gt;$$a \epsilon \mathbb{R}$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponentialregel&lt;/p&gt;
+&lt;p&gt;$$\int (e^x)dx = e^x+C$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sinus- /Cosinussatz&lt;/p&gt;
+&lt;p&gt;$$\int sin(x)dx = -cos(x)+C$$&lt;/p&gt;
+&lt;p&gt;$$\int cos(x)dx = sin(x)+C$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bestimmte-integrale&#34;&gt;Bestimmte Integrale&lt;/h4&gt;
+&lt;p&gt;Besimmt Integrale sind die Fläche zwischen der X-Achse und dem Graphen im &lt;strong&gt;bestimmten Intervall&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;$$\int^{a}_{b}(x)dx$$&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;b&lt;/em&gt; ist hierbei die untere Grenze und &lt;em&gt;a&lt;/em&gt; die obere Grenze.&lt;/p&gt;
+&lt;p&gt;Besimmte integrale werden berechnet, indem man die Stammfunktion mit den eingesetzten Werten der unteren Grenze (&lt;em&gt;b&lt;/em&gt;) von der Stammfunktion mit den Werten der oberen Grenze (&lt;em&gt;a&lt;/em&gt;) subtrahiert.&lt;/p&gt;
+&lt;p&gt;$$\int^{a}_bf(x)dx = [F(x)]^{a}_b = [F(a)] - [F(b)]$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fläche-zwischen-2-graphen&#34;&gt;Fläche zwischen 2 Graphen&lt;/h2&gt;
+&lt;p&gt;Um die Fläche zwischen 2 Graphen zu berechen subtrahiert man das Integral (die Fläche) des unteren Graphen von dem Integral des oberen Graphen.&lt;/p&gt;
+&lt;p&gt;Um hierbei die Position der Graphen zueinander vernachlässigen zu können nutz man hier Betragsstriche.&lt;/p&gt;
+&lt;p&gt;$$A_{ges} = \int |f(x)| - |g(x)|dx$$&lt;/p&gt;
+&lt;p&gt;Die Position im Verhältnis zur x-Achse kann hierbei auch vernachlässigt werden, die Graphen müssen also nicht verschoben werden um im positiven Bereich zu liegen.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;gut-zu-wissen&#34;&gt;Gut zu wissen&lt;/h2&gt;
+&lt;h3 id=&#34;logarithmen&#34;&gt;Logarithmen&lt;/h3&gt;
+&lt;p&gt;es gilt für&lt;/p&gt;
+&lt;p&gt;$$a = b^x$$&lt;/p&gt;
+&lt;p&gt;dass&lt;/p&gt;
+&lt;p&gt;$$x = \log_b(a)$$&lt;/p&gt;
+&lt;h3 id=&#34;e-funktionen&#34;&gt;e-Funktionen&lt;/h3&gt;
+&lt;p&gt;$$(e^{x})&amp;rsquo; = e^x \times (x)&amp;rsquo;$$&lt;/p&gt;
+&lt;p&gt;$$\int e^x = e^x \div (x)&amp;rsquo;$$&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Powi_Q1.2</title>
+      <link>/doc/posts/powi_q1.2/</link>
+      <pubDate>Mon, 05 Dec 2022 20:57:47 +0100</pubDate>
+      
+      <guid>/doc/posts/powi_q1.2/</guid>
+      <description>Themen Entparlamentarisierung
+Gesetzgebungsprozess
+Verfassungsorgane (und ihre Rollen)
+Ablauf
+der Politikzyklus
+Spannungsverhältnisse zwischen Verfassungsorganen
+Exekutive / Legislative
+Legislative / Judikative
+gut zu wissen
+Demokratieformen Aufgabenverteilung Entparlamentarisierung Entparlamentarisierung ist der Prozess, in dem das Parlament, das (laut GG) mächtigste Deutsche Organ, Kompetenzen im Bereich der Gesetzgebung abgibt.
+Lobbyismus
+Lobbygruppen nehmen Einfluss auf die Gestaltung der Gesetze, obwohl das Aufgabe des Parlaments ist Ausschüsse/Gremien
+Der Prozess des Ausformulierens der Gesetzestexte wird beschleunigt, indem Aufgaben ausgelagert werden.</description>
+      <content>&lt;h2 id=&#34;themen&#34;&gt;Themen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Entparlamentarisierung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gesetzgebungsprozess&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verfassungsorgane (und ihre Rollen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ablauf&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;der Politikzyklus&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spannungsverhältnisse zwischen Verfassungsorganen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive / Legislative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative / Judikative&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;gut zu wissen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demokratieformen&lt;/li&gt;
+&lt;li&gt;Aufgabenverteilung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;entparlamentarisierung&#34;&gt;Entparlamentarisierung&lt;/h3&gt;
+&lt;p&gt;Entparlamentarisierung ist der Prozess, in dem das Parlament, das (laut GG) mächtigste Deutsche Organ, Kompetenzen im Bereich der Gesetzgebung abgibt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Lobbyismus&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lobbygruppen nehmen Einfluss auf die Gestaltung der Gesetze, obwohl das Aufgabe des Parlaments ist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ausschüsse/Gremien&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Der Prozess des Ausformulierens der Gesetzestexte wird beschleunigt, indem Aufgaben ausgelagert werden. Das Können entweder Expertengruppen mit besonderer Expertise auf dem gefragten Fachgebiet oder auch Rechtsanwälte sein. Das kann den Prozess beschleunigen und den Erstvorschlag fachlich besser machen. Aber gleichzeitig schränkt sich das Parlament selbst ein, da die Ausarbeitung der Gesetze im Kompetenzbereich des Parlaments liegt.&lt;/p&gt;
+&lt;p&gt;Dadurch wird das Parlament nur zu einem &amp;ldquo;Abnick&amp;rdquo; Parlament, das die Gesetzesvorschläge nur absegnet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EU Ebene&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;EU-Richtlinien / -Beschlüsse / -Verordnungen&lt;/strong&gt; können die Gesetzgebung des Parlaments einschränken, da die genaue Auslegung der Richtlinien der Legislative der Mitgliedsstaaten unterliegt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;andere Verfassungsorgane&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;siehe: &amp;ldquo;Spannungsverhältnisse &amp;quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Andere Organe übernehmen Aufgaben der Gesetzesgebung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Abnick-Parlament&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;interne Spannungen&lt;/p&gt;
+&lt;p&gt;Konflikt zwischen §38GG (Abgeordnete sind nur dem Gewissen verpflichtet) und den Koalitionsverträgen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;parlamentarische Freiheit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fraktionszwang&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Konflikt zwischen der Mehrheit im Parlament und der Mehrheit im Bundestag&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Interessenpolitik (den Interessen seiner Position folgend {Länder/Bundesinteressen})&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parteipolitik (der Linie der Partei folgend)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gesetzgebungsprozess&#34;&gt;Gesetzgebungsprozess&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Verfassungsorgane&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bundestag&lt;/p&gt;
+&lt;p&gt;Der Bundestag ist das &lt;strong&gt;oberste deutsche Verfassungsorgan&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Es wird direkt vom Volk gewählt und es wählt den Kanzler. Die Abgeordneten des Bundestages bilden die Hälfte der Bundesversammlung und sie wählen die Hälfte der Verfassungsrichter im Bundesverfassungsgericht.&lt;/p&gt;
+&lt;p&gt;Um in den Bundestag gewählt zu werden braucht eine Partei mindestens 5% der Stimmen.&lt;/p&gt;
+&lt;p&gt;Aufgaben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Gesetzgebung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kontrolle der Regierung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fragerecht&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Misstrauensvotum&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Untersuchungsausschüsse&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesregierung&lt;/p&gt;
+&lt;p&gt;Die Bundesregierung setzt sich aus dem Bundeskanzler und den MinisterInnen zusammen. Die Regierung stellt &lt;strong&gt;meistens&lt;/strong&gt; auch die Mehrheit im Bundestag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kabinett-Prinzip (Kanzler ruft Minister für wichtige Entscheidungen zusammen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stellt Gelder zur Verfügung (&lt;strong&gt;Verwaltung&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beaufsichtigt die Bundesbehörden&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;gestaltet die gesellschaftlichen Verhältnisse und äußere Beziehungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;der Kanzler hat im Kriegsfall den militärischen Oberbefehl&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesrat&lt;/p&gt;
+&lt;p&gt;Der Bundesrat ist das Organ, das die Länder an der Gesetzgebung beteiligt (&lt;strong&gt;Föderalismus&lt;/strong&gt;). Er besteht aus den Mitgliedern der Länderregierungen. Jedes Land hat mindestens 3 Stimmen (§52GG) und alle weiteren Stimmen werden nach der Einwohnerzahl vergeben.&lt;/p&gt;
+&lt;p&gt;Aufgaben:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verwaltung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kontrolle des Bundes (Kompetenzüberschreitungen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wahl der Hälfte der Verfassungsrichter&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ewiges Organ (immer besetzt, weil die Länder zu unterschiedlichen Zeiten wählen)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundespräsident&lt;/p&gt;
+&lt;p&gt;Der Bundespräsident ist das deutsche Staatsoberhaupt. Er repräsentiert Deutschland nach innen und außen. Allerdings hat er auf keine der Gewalten einen formalen Einfluss. Aber er kann die Auflösung des Bundestages verhindern.&lt;/p&gt;
+&lt;p&gt;Er wird von der &lt;strong&gt;Bundesversammlung&lt;/strong&gt; auf 5 Jahre gewählt. Man kann maximal 2 Amtszeiten (10 Jahre) Bundespräsident sein.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Ablauf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Initiative wird eingebracht&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesrat&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundestag&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bundesregierung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1,2,3 Lesung im Bundestag&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vorschlag geht zum Bundesrat&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei Zustimmung:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bundesregierung und Bundespräsident stimmen zu und das Gesetz ist rechtskräftig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei Einsprüchen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vermittlungsausschuss&lt;/strong&gt; (Beratung von der Bundesregierung und dem Bundestag)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Einigung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bundesregierung und Bundespräsident stimmen zu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;keine Zustimmung&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gesetz wird verworfen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bpb.de/cache/images/9/331679_article_side.png?8CA1C&#34;&gt;Schaubild&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;politikzyklus&#34;&gt;Politikzyklus&lt;/h3&gt;
+&lt;p&gt;Modell:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Problemdefinition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Auseinandersetzung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implementation der Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Evaluation der Entscheidung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Terminierung oder erneute Problemstellung&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Vorteile&lt;/th&gt;
+&lt;th&gt;Nachteile&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Politik lässt sich gut und übersichtlich darstellen, sodass sie auch von Laien verstanden werden kann.&lt;/td&gt;
+&lt;td&gt;Die einzelnen Phasen des Zyklus sind in der Realität nicht so eindeutig zu trennen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;spannungsverhältnisse&#34;&gt;Spannungsverhältnisse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive / Legislative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Konflikt zwischen &lt;strong&gt;Partei- und Interessenpolitik&lt;/strong&gt; (siehe oben)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exekutive übernimmt Aufgaben der Legislative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative macht vom Fragerecht nicht gebrauch&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative wird zum &amp;ldquo;Abnick-Parlament&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative / Judikative&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Judikative verhindert Veränderungen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Judikative übernimmt Aufgaben der Legislative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Legislative arbeitet ungenau/ohne Rücksicht auf bestehende Gesetze&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;gut-zu-wissen&#34;&gt;Gut zu Wissen&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Demokratieformen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Demokratieform&lt;/th&gt;
+&lt;th&gt;Erläuterung&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;repräsentative Demokratie&lt;/td&gt;
+&lt;td&gt;Die Gewalt geht nicht direkt vom Volke aus, sondern das Volk wird von gewählten Repräsentanten vertreten.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;parlamentarische Demokratie&lt;/td&gt;
+&lt;td&gt;Eine Unterart der repräsentativen Demokratie, hier bilden die Repräsentanten ein Parlament, welches einen Regierungschef wählt und die Macht ausübt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;direkte Demokratie&lt;/td&gt;
+&lt;td&gt;Die Bevölkerung stimmt in Volksabstimmungen und Volksentscheiden direkt über die Politik ab.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Verbändedemokratie&lt;/td&gt;
+&lt;td&gt;Interessengruppen und Lobbyverbände beeinflussen die Politik, um ihre Interessen zu vertreten.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mediendemokratie&lt;/td&gt;
+&lt;td&gt;Die Medien und die Öffentlichkeit (Massenberichterstattung) beeinflussen die Politik massiv, indem sie die Meinungsbildung, sowohl der Politiker, als auch der Öffentlichkeit lenkt.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;präsidiale Demokratie&lt;/td&gt;
+&lt;td&gt;Der Präsident wird getrennt von den anderen Volksvertretern gewählt. Er hat eine besonders prominente Stellung in der Politik des Landes.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;autoritäre Demokratie&lt;/td&gt;
+&lt;td&gt;Übergangsphase eines  autoritär geführten Staates zu einer Demokratie.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mitmachdemokratie&lt;/td&gt;
+&lt;td&gt;Jeder Bürger kann sich auf kleiner Ebene direkt an der politischen Gestaltung beteiligen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Aufgabenverteilung der Gewalten&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Exekutive&lt;/th&gt;
+&lt;th&gt;Legislative&lt;/th&gt;
+&lt;th&gt;Judikative&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beamte&lt;/td&gt;
+&lt;td&gt;Abgeordnete&lt;/td&gt;
+&lt;td&gt;Richter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Verwaltung&lt;/td&gt;
+&lt;td&gt;Landtag&lt;/td&gt;
+&lt;td&gt;Landesgerichte&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bundes- / Landesregierung&lt;/td&gt;
+&lt;td&gt;Bundesrat&lt;/td&gt;
+&lt;td&gt;Bundesverfassungsgericht&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
