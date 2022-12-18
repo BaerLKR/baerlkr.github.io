@@ -376,6 +376,16 @@ $$&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
+&lt;h1 id=&#34;kirchhoffsche-regeln-und-potenziale&#34;&gt;Kirchhoffsche Regeln und Potenziale&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Die Summe aller Ströme, die zu einem Verzweigungspunkt (einem &amp;ldquo;Knoten&amp;rdquo;) in einem Stromkreis hineinfließen, ist gleich der Summe aller Ströme, die von diesem Knoten wegfließen (&lt;strong&gt;Knotenregel&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beim Durchlaufen einer geschlossen Schleife (einer &amp;ldquo;Masche&amp;rdquo;) eines Stromkreises ist die Summe aller Spannungen gleich null (&lt;strong&gt;Maschenregel&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;h1 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h1&gt;
 &lt;h2 id=&#34;bewegungsgleichungen-1&#34;&gt;Bewegungsgleichungen&lt;/h2&gt;
 &lt;p&gt;$$
