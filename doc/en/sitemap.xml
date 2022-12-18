@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/doc/</loc>
-    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,17 +15,26 @@
                 href="/doc/"
                 />
   </url><url>
-    <loc>/doc/tags/bash/</loc>
-    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+    <loc>/doc/tags/physik/</loc>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
   </url><url>
-    <loc>/doc/tags/linux/</loc>
-    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+    <loc>/doc/posts/physik_q1.2/</loc>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
   </url><url>
     <loc>/doc/posts/</loc>
-    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
+  </url><url>
+    <loc>/doc/tags/q1/</loc>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
+  </url><url>
+    <loc>/doc/tags/q1.2/</loc>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
+  </url><url>
+    <loc>/doc/tags/schule/</loc>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/</loc>
-    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+    <lastmod>2022-12-18T12:27:12+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -37,6 +46,12 @@
                 href="/doc/tags/"
                 />
   </url><url>
+    <loc>/doc/tags/bash/</loc>
+    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+  </url><url>
+    <loc>/doc/tags/linux/</loc>
+    <lastmod>2022-12-15T18:47:56+01:00</lastmod>
+  </url><url>
     <loc>/doc/posts/todo/</loc>
     <lastmod>2022-12-15T18:47:56+01:00</lastmod>
   </url><url>
@@ -44,15 +59,6 @@
     <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/posts/geschichte_q1.2/</loc>
-    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/q1/</loc>
-    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/q1.2/</loc>
-    <lastmod>2022-12-13T19:00:53+01:00</lastmod>
-  </url><url>
-    <loc>/doc/tags/schule/</loc>
     <lastmod>2022-12-13T19:00:53+01:00</lastmod>
   </url><url>
     <loc>/doc/tags/deutsch/</loc>

@@ -6,7 +6,386 @@
     <description>Recent content in schule on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Dec 2022 19:00:53 +0100</lastBuildDate><atom:link href="/doc/tags/schule/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 12:27:12 +0100</lastBuildDate><atom:link href="/doc/tags/schule/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physik_Q1.2</title>
+      <link>/doc/posts/physik_q1.2/</link>
+      <pubDate>Sun, 18 Dec 2022 12:27:12 +0100</pubDate>
+      
+      <guid>/doc/posts/physik_q1.2/</guid>
+      <description>Klausur Schwerpunkte Verhältnisbestimmung bei variablen Parametern
+Konstante Spannung / Konstante Ladung &amp;ldquo;halbe&amp;rdquo; Dielektriken
+Kondensatoren in Stromkreisen
+&amp;ldquo;Formelsammlung&amp;rdquo; $$ E = \frac {U}{d} \newline F_{el} = E \times q \newline I = \frac {\Delta Q}{\Delta t} \newline W = Q \times U \newline \frac{F}{Q} = \frac{U}{d} \newline W_{el} = \frac{1}{2} \times C \times U^{2} \ W_{pot} = qEx \ $$
+elektrische Stromstärke $$ I= \frac{\Delta Q}{\Delta t} \newline Q = It $$</description>
+      <content>&lt;h1 id=&#34;klausur-schwerpunkte&#34;&gt;Klausur Schwerpunkte&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verhältnisbestimmung bei variablen Parametern&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Konstante Spannung / Konstante Ladung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;halbe&amp;rdquo; Dielektriken&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kondensatoren in Stromkreisen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;formelsammlung&#34;&gt;&amp;ldquo;Formelsammlung&amp;rdquo;&lt;/h1&gt;
+&lt;p&gt;$$
+E = \frac {U}{d} \newline
+F_{el} = E \times q \newline
+I = \frac {\Delta Q}{\Delta t} \newline
+W = Q \times U \newline
+\frac{F}{Q} = \frac{U}{d} \newline
+W_{el} = \frac{1}{2} \times C \times U^{2} \
+W_{pot} = qEx \
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;elektrische-stromstärke&#34;&gt;elektrische Stromstärke&lt;/h1&gt;
+&lt;p&gt;$$
+I= \frac{\Delta Q}{\Delta t} \newline
+Q = It
+$$&lt;/p&gt;
+&lt;p&gt;Die Stromstärke ist die Menge an Ladung, die in einer gegebenen Zeit fließt. Ein Ampere ist ein Coulomb pro Sekunde.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;feldstärke&#34;&gt;Feldstärke&lt;/h1&gt;
+&lt;p&gt;Die Potentielle Energie eines geladenen Körpers (mit der Ladung &lt;em&gt;q&lt;/em&gt;) im Abstande &lt;em&gt;x&lt;/em&gt; zur negativen Platte:&lt;/p&gt;
+&lt;p&gt;$$
+W_{pot} = qEx
+$$&lt;/p&gt;
+&lt;p&gt;Im homogenen Feld des Plattenkondensators gilt für das Potential für jeden Punkt mit dem Abstand &lt;em&gt;x&lt;/em&gt; zur Platte:&lt;/p&gt;
+&lt;p&gt;$$
+\varphi = \frac{W_{pot}}{q} = E \times x
+$$&lt;/p&gt;
+&lt;h2 id=&#34;herleitung&#34;&gt;Herleitung&lt;/h2&gt;
+&lt;p&gt;$$
+U = \Delta \varphi = \varphi \space (weil \space \varphi &lt;em&gt;1 = 0) \
+U = \frac{W&lt;/em&gt;{pot}}{q} \
+U =Ed \
+E = \frac{U}{d}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bewegung-von-teilchen-im-längsfeld&#34;&gt;Bewegung von Teilchen im Längsfeld&lt;/h1&gt;
+&lt;h2 id=&#34;freier-fall&#34;&gt;&amp;ldquo;Freier Fall&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;In diesem Fall ist das Teilchen an der Patte, die die gleiche Ladung wie es selbst trägt.&lt;/p&gt;
+&lt;p&gt;Wenn das Teilchen den Kondensator komplett durchläuft, dann gilt:&lt;/p&gt;
+&lt;p&gt;$$
+W_{kin} = W_{el} \newline
+\frac{1}{2} \times m \times v = q \times E \times d \newline
+\frac{1}{2} \times m \times v = q \times U \newline
+v = \sqrt{\frac{q \times U \times 2}{m}}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;senkrechter-wurf-nach-unten&#34;&gt;&amp;ldquo;Senkrechter Wurf nach unten&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;In diesem Fall wird das Teilchen mit einer Anfangsgeschwindigkeit in Feldrichtung eingeschossen und weiter beschleunigt.&lt;/p&gt;
+&lt;h3 id=&#34;bewegungsgleichungen&#34;&gt;Bewegungsgleichungen&lt;/h3&gt;
+&lt;p&gt;$$
+s(t) = \frac{1}{2} \times v \times t + v_0 \times t \newline
+s(t) = \frac{1}{2}at^{2}+v_0t \newline
+s(t) = \frac{1}{2} \times (\frac{q}{m} \times \frac{U}{d}) \times t^{2} +v_0t
+$$$$
+v(t) = at+v_0 \newline
+a(t) = a \space  (konstant)
+$$&lt;/p&gt;
+&lt;h3 id=&#34;energieansatz&#34;&gt;Energieansatz&lt;/h3&gt;
+&lt;p&gt;$$
+W_{kin,0} + W_{pot} = W_{kin} \newline
+\frac{1}{2}mv_0+qU = \frac{1}{2}mv^{2} \newline
+v = \sqrt{\frac{2(\frac{1}{2}mv_0^{2}+qU}{m}}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;senkrechter-wurf-nach-oben&#34;&gt;&amp;ldquo;Senkrechter Wurf nach oben&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;Das negativ geladene Teilchen wird gegen die Feldrichtung mit einer Anfangsgeschwindigkeit eingeschossen und wird abgebremst.&lt;/p&gt;
+&lt;p&gt;Da man das Teilchen voll abbremst, entzieht man ihm alle Energie. Daher gilt hier der Energieansatz:&lt;/p&gt;
+&lt;p&gt;$$
+d_0 = &amp;ldquo;Bremsweg&amp;rdquo;
+$$$$
+W_{kin} = W_{el} \newline
+\frac{1}{2}mv_0^{2} = F_{el} \times d_0 \newline
+\frac{1}{2}mv_0^{2} = qEd_0 \newline
+\frac{1}{2}mv_0^{2} = q \frac{U}{d}d_0 | \times \frac{d}{q \times U}\newline
+d_0 = \frac{1}{2} \times \frac{mv_0^{2}d}{qU}
+$$&lt;/p&gt;
+&lt;p&gt;Die Bewegung des Teilchens ist vergleichbar mit dem Senkrechten Wurf nach oben, da die Feldkraft hier eine ähnliche Wirkung hat, wie die Schwerkraft beim Senkrechten Wurf nach oben.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bewegung-im-längs--und-querfeld&#34;&gt;Bewegung im Längs- und Querfeld&lt;/h1&gt;
+&lt;h2 id=&#34;braunsche-röhre&#34;&gt;Braunsche Röhre&lt;/h2&gt;
+&lt;p&gt;Die Heizspannung sorgt dafür, dass in einem evakuierten Glaskolben ein Draht (Glühdraht) zum glühen gebracht wird, sodass er Elektronen aussendet.&lt;/p&gt;
+&lt;p&gt;Es liegt eine Beschleunigungsspannung U an, die die Elektronen von der Glühkatode hin zur Anode (positiv) beschleunigt.&lt;/p&gt;
+&lt;p&gt;Hinweiß: Der negativ geladene Wehnelt-Zylinder umgibt die Glühkatode, um die Elektronen zu bündeln (auf ein Loch in der Anode zu fokussieren).&lt;/p&gt;
+&lt;p&gt;$$
+W_{el} = W_{kin} \newline
+v = \sqrt{\frac{2eU}{m_e}}
+$$&lt;/p&gt;
+&lt;p&gt;wenn&lt;/p&gt;
+&lt;p&gt;$$
+v_0 = 0 \newline
+U_b = &amp;ldquo;nicht\space zu \space groß&amp;rdquo; \newline
+m_e = &amp;ldquo;Elektronenmasse&amp;rdquo; \newline
+e = &amp;ldquo;Elementarladung&amp;rdquo; \newline
+v = &amp;ldquo;Geschwindigkeit \space des\space Elektrons&amp;rdquo;
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;kapazität-beim-plattenkondensator&#34;&gt;Kapazität (beim Plattenkondensator)&lt;/h1&gt;
+&lt;p&gt;Unter der Kapazität eines Kondensators versteht man den Quotienten aus der Ladung und der angelegten Spannung. Die Kapazität gibt also an, wie viel Ladung der Kondensator bei einer bestimmten Spannung speichern kann.&lt;/p&gt;
+&lt;p&gt;$$
+C = \frac{Q}{U}
+$$$$
+C \sim \frac{1}{d}
+$$$$
+C \sim A
+$$$$
+C = \Epsilon _0 \times \Epsilon _r \times \frac{A}{d}
+$$&lt;/p&gt;
+&lt;p&gt;Die Kapazität wird in Farad angegeben.&lt;/p&gt;
+&lt;p&gt;$$
+1 F = \frac{C}{V} = \frac{As}{V}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;dielektrikum&#34;&gt;Dielektrikum&lt;/h2&gt;
+&lt;p&gt;Ein Dielektrikum ist ein Isolator. Als Dielektrikum können nur nichtleitende Stoffe verwendet werden, da die Ladung anderenfalls abfließen würde.&lt;/p&gt;
+&lt;p&gt;Nutzen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;man kann höhere Spannungen anlegen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;die Kapazität wird gesteigert&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Im Vakuum ist die relative Dielektrizitätszahl 1. Alle anderen Stoffe haben eine größere relative Dielektrizitätszahl.&lt;/p&gt;
+&lt;p&gt;Einheitenbetrachtung der elektrischen Feldkonstante:&lt;/p&gt;
+&lt;p&gt;$$
+\Epsilon _0 = \frac{C}{Vm} = \frac{As}{Vm}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;konstante-ladung--konstante-spannung&#34;&gt;Konstante Ladung / Konstante Spannung&lt;/h2&gt;
+&lt;p&gt;Veränderung der Werte wenn ein Dielektrikum in den Kondensator geschoben wird.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Kapazität C&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Die Kapazität erhöht sich&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C = \Epsilon _0 \times \Epsilon _r \times \frac{A}{d} = \Epsilon _r \times C_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ladung Q&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Erhöhung der Ladung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C &amp;gt; C_0 \newline
+C_0 = \frac{Q_0}{U} = Q_0 = C_0U \newline
+Q =  \frac{A}{d}U \newline
+Q = \Epsilon _r \times Q_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Q ist konstant lol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spannung U&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;U ist konstant ._.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verringerung der Spannung&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C = \frac{Q}{U} \newline
+U = \frac{Q_0}{C} = \frac{Q_0}{\Epsilon _r \times C_0} = \frac{U_0}{\Epsilon _r} \newline&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+C &amp;gt; C_0 \newline
+&amp;ldquo;also&amp;rdquo; \newline
+U &amp;lt; U_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Feldstärke E&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bei angeschlossener Spannungsquelle (U=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Feldstärke bleibt konstant&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+E = \frac{U}{d}=\frac{U_0}{d}=E_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bei abgetrennter Spannungsquelle (Q=konstant)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verringerung von E&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+E = \frac{U_0}{\Epsilon _r \times d} = \frac{E}{\Epsilon _r} \newline
+E &amp;lt; E_0 \newline
+\Epsilon _r &amp;gt; 1
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+&amp;ldquo;wenn&amp;rdquo; \newline
+U &amp;lt; U_0
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;energie-im-plattenkondensator&#34;&gt;Energie im Plattenkondensator&lt;/h1&gt;
+&lt;p&gt;$$
+W = \frac{1}{2} \times \frac{Q^{2}}{C} = \frac{1}{2} QU =  \frac{1}{2} CU^{2}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;herleitung-1&#34;&gt;Herleitung&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/doc/doc/energie_kondensator.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;integralrechnung&#34;&gt;Integralrechnung&lt;/h3&gt;
+&lt;p&gt;$$
+W_{el} = \int _{0}^{Q}U \space dq =  \int _{0}^{Q} \frac{q}{C}\space dq
+= \frac{1}{C} \int _{0}^{Q}q \space dq = \frac{1}{2}\frac{Q^{2}}{C}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;streifenmethode&#34;&gt;&amp;ldquo;Streifenmethode&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;$$
+W_{ges} = \lim _{\Delta Q \to 0} \sum \Delta W_i =
+\lim _{\Delta Q \to 0} \sum \Delta Q \frac{Q_i}{C}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;kondensatoren-im-stromkreis&#34;&gt;Kondensatoren im Stromkreis&lt;/h1&gt;
+&lt;h2 id=&#34;parallelschaltungen&#34;&gt;Parallelschaltungen&lt;/h2&gt;
+&lt;p&gt;$$
+U_{ges} = U_1 + U_2 + U_n \
+Q_{ges} = Q_1 + Q_2 + Q_n \
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \
+C_{ges} = C_1 + C_2 + C_n \
+(\frac{1}{R_{ges}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_n} )&lt;br&gt;
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Die Ersatzkapazität von parallel geschalteten Kondensatoren ist die Summe der Einzelkapazitäten&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Durch das Parallelschalten von Kondensatoren steigt die Gesamtkapazität. Dies ist beim Plattenkondensator besonders verständlich, da die Plattenfläche, auf der sich die Ladungen ansammeln können, vergrößert.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;reihenschaltungen&#34;&gt;Reihenschaltungen&lt;/h2&gt;
+&lt;p&gt;$$
+U_{ges} = U_1 + U_2 + U_n \
+Q_{ges} = &amp;ldquo;konst.&amp;rdquo; = Q_1 + Q_2 + Q_n \
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \
+C_{ges} = \frac{Q_{ges}}{U_1 + U_2 + U_n} \space | ()^{-1} \
+\frac{1}{C_{ges}} = \frac{U_1 + U_2 + U_n}{Q_{ges}} \
+\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_n} \
+(R_{ges} = R_1 + R_2 + R_n)
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;halbe-dielektriken&#34;&gt;&amp;ldquo;Halbe&amp;rdquo; Dielektriken&lt;/h1&gt;
+&lt;p&gt;Wenn der Plattenkondensator nicht vollständig vom Dielektrikum gefüllt ist, dann teilt man den Plattenkondensator in mehrere Kondensatoren auf, um die Gesamtkapazität zu berechnen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/doc/doc/halbe.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fall a)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Man betrachtet die zwei Ersatzkondensatoren, als ob sie in Reihe geschaltet wären&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fall b)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Man betrachtet die zwei Ersatzkondensatoren, als ob sie parallel geschaltet wären&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+d = &amp;ldquo;Plattenabstand&amp;rdquo; \
+c = &amp;ldquo;Höhe \space und \space Breite, \space des \space Ursprungskondensators&amp;rdquo;  \
+C_1 = \Epsilon _0 \frac{ca}{d} \
+C_2 = \Epsilon &lt;em&gt;r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
+C&lt;/em&gt;{ges} = C_1 + C_2 \
+C&lt;/em&gt;{ges} = \Epsilon _0 \frac{ca}{d} + \Epsilon _r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
+C&lt;/em&gt;{ges} = \frac{\Epsilon _0 ac + \Epsilon _r \Epsilon _0 (c^{2}-ac)}
+{d}
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;bestimmung-der-elementarladung-millikanversuch&#34;&gt;Bestimmung der Elementarladung (Millikanversuch)&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;geladenes Öltröpfchen im Plattenkondensator durch die Regulierung der anliegenden Spannung zum schweben bringen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Den Radius des Tropfens bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Die Fallgeschwindigkeit bei ausgeschaltetem Kondensator messen und dem Luftwiederstand die Größe bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Menge an Elementarladungen auf dem Tropfen bestimmen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Im Graphen ein Muster erkennen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$$
+e = 1,602176634 \times 10^{-19}C
+$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;allgemeines&#34;&gt;Allgemeines&lt;/h1&gt;
+&lt;h2 id=&#34;bewegungsgleichungen-1&#34;&gt;Bewegungsgleichungen&lt;/h2&gt;
+&lt;p&gt;$$
+s(t) = \frac{1}{2} \times a \times t^{2} \newline
+v(t) = \dot{s}(t) = a \times t \newline
+a(t) = \dot{v}(t) = \ddot{s}(t) = a
+$$&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Geschichte_Q1.2</title>
       <link>/doc/posts/geschichte_q1.2/</link>
