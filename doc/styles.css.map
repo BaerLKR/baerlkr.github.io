@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/home/lovis/projects/website/doc",
+	"sourceRoot": "/home/lovis/website/doc",
 	"sources": [
 		"css/base.scss",
 		"themes/terminal/assets/css/variables.scss",

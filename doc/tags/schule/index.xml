@@ -16,7 +16,7 @@
       <description>Klausur Schwerpunkte Verhältnisbestimmung bei variablen Parametern
 Konstante Spannung / Konstante Ladung &amp;ldquo;halbe&amp;rdquo; Dielektriken
 Kondensatoren in Stromkreisen
-&amp;ldquo;Formelsammlung&amp;rdquo; $$ E = \frac {U}{d} \newline F_{el} = E \times q \newline I = \frac {\Delta Q}{\Delta t} \newline W = Q \times U \newline \frac{F}{Q} = \frac{U}{d} \newline W_{el} = \frac{1}{2} \times C \times U^{2} \ W_{pot} = qEx \ $$
+&amp;ldquo;Formelsammlung&amp;rdquo; $$ E = \frac {U}{d} \newline F_{el} = E \times q \newline I = \frac {\Delta Q}{\Delta t} \newline W = Q \times U \newline \frac{F}{Q} = \frac{U}{d} \newline W_{el} = \frac{1}{2} \times C \times U^{2} \newline W_{pot} = qEx \newline $$
 elektrische Stromstärke $$ I= \frac{\Delta Q}{\Delta t} \newline Q = It $$</description>
       <content>&lt;h1 id=&#34;klausur-schwerpunkte&#34;&gt;Klausur Schwerpunkte&lt;/h1&gt;
 &lt;ul&gt;
@@ -41,8 +41,8 @@ F_{el} = E \times q \newline
 I = \frac {\Delta Q}{\Delta t} \newline
 W = Q \times U \newline
 \frac{F}{Q} = \frac{U}{d} \newline
-W_{el} = \frac{1}{2} \times C \times U^{2} \
-W_{pot} = qEx \
+W_{el} = \frac{1}{2} \times C \times U^{2} \newline
+W_{pot} = qEx \newline
 $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;elektrische-stromstärke&#34;&gt;elektrische Stromstärke&lt;/h1&gt;
@@ -63,9 +63,9 @@ $$&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;h2 id=&#34;herleitung&#34;&gt;Herleitung&lt;/h2&gt;
 &lt;p&gt;$$
-U = \Delta \varphi = \varphi \space (weil \space \varphi &lt;em&gt;1 = 0) \
-U = \frac{W&lt;/em&gt;{pot}}{q} \
-U =Ed \
+U = \Delta \varphi = \varphi \space (weil \space \varphi &lt;em&gt;1 = 0) \newline
+U = \frac{W&lt;/em&gt;{pot}}{q} \newline
+U =Ed \newline
 E = \frac{U}{d}
 $$&lt;/p&gt;
 &lt;hr&gt;
@@ -295,10 +295,10 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;kondensatoren-im-stromkreis&#34;&gt;Kondensatoren im Stromkreis&lt;/h1&gt;
 &lt;h2 id=&#34;parallelschaltungen&#34;&gt;Parallelschaltungen&lt;/h2&gt;
 &lt;p&gt;$$
-U_{ges} = U_1 + U_2 + U_n \
-Q_{ges} = Q_1 + Q_2 + Q_n \
-C_{ges} = \frac{Q_{ges}}{U_{ges}} \
-C_{ges} = C_1 + C_2 + C_n \
+U_{ges} = U_1 + U_2 + U_n \newline
+Q_{ges} = Q_1 + Q_2 + Q_n \newline
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \newline
+C_{ges} = C_1 + C_2 + C_n \newline
 (\frac{1}{R_{ges}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_n} )&lt;br&gt;
 $$&lt;/p&gt;
 &lt;ul&gt;
@@ -311,12 +311,12 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;reihenschaltungen&#34;&gt;Reihenschaltungen&lt;/h2&gt;
 &lt;p&gt;$$
-U_{ges} = U_1 + U_2 + U_n \
-Q_{ges} = &amp;ldquo;konst.&amp;rdquo; = Q_1 + Q_2 + Q_n \
-C_{ges} = \frac{Q_{ges}}{U_{ges}} \
-C_{ges} = \frac{Q_{ges}}{U_1 + U_2 + U_n} \space | ()^{-1} \
-\frac{1}{C_{ges}} = \frac{U_1 + U_2 + U_n}{Q_{ges}} \
-\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_n} \
+U_{ges} = U_1 + U_2 + U_n \newline
+Q_{ges} = &amp;ldquo;konst.&amp;rdquo; = Q_1 + Q_2 + Q_n \newline
+C_{ges} = \frac{Q_{ges}}{U_{ges}} \newline
+C_{ges} = \frac{Q_{ges}}{U_1 + U_2 + U_n} \space | ()^{-1} \newline
+\frac{1}{C_{ges}} = \frac{U_1 + U_2 + U_n}{Q_{ges}} \newline
+\frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_n} \newline
 (R_{ges} = R_1 + R_2 + R_n)
 $$&lt;/p&gt;
 &lt;hr&gt;
@@ -338,12 +338,12 @@ $$&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;$$
-d = &amp;ldquo;Plattenabstand&amp;rdquo; \
-c = &amp;ldquo;Höhe \space und \space Breite, \space des \space Ursprungskondensators&amp;rdquo;  \
-C_1 = \Epsilon _0 \frac{ca}{d} \
-C_2 = \Epsilon &lt;em&gt;r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
-C&lt;/em&gt;{ges} = C_1 + C_2 \
-C&lt;/em&gt;{ges} = \Epsilon _0 \frac{ca}{d} + \Epsilon _r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \
+d = &amp;ldquo;Plattenabstand&amp;rdquo; \newline
+c = &amp;ldquo;Höhe \space und \space Breite, \space des \space Ursprungskondensators&amp;rdquo;  \newline
+C_1 = \Epsilon _0 \frac{ca}{d} \newline
+C_2 = \Epsilon &lt;em&gt;r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \newline
+C&lt;/em&gt;{ges} = C_1 + C_2 \newline
+C&lt;/em&gt;{ges} = \Epsilon _0 \frac{ca}{d} + \Epsilon _r \Epsilon &lt;em&gt;0 \frac{(c-a)c}{d} \newline
 C&lt;/em&gt;{ges} = \frac{\Epsilon _0 ac + \Epsilon _r \Epsilon _0 (c^{2}-ac)}
 {d}
 $$&lt;/p&gt;
