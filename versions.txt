@@ -25,3 +25,4 @@
 2.9
     moved lovirent.eu/doc to doc.lovirent.eu
     moved doc to a diffentent host
+    moved en to /en/
