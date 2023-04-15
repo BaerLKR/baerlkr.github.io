@@ -15,7 +15,6 @@
     added popup messages
     added versioning file
     fixed colorsync
-        Thu Dec 08 2022
 2.7
     JS/CSS Ordnerstruktur
     fixed spelling (thx @selyn)
@@ -23,3 +22,14 @@
     mobile hobb && footer fixed
 2.8
     lazy loading and other performance tweaks
+2.9
+    moved lovirent.eu/doc to doc.lovirent.eu
+    moved doc to a diffentent host
+    moved en to /en/
+2.10
+    updated links
+
+3.0
+   Removed everything apart from contact
+   added gifs
+   updated links
