@@ -103,3 +103,15 @@ pre {
   outline: solid 1px var(--high);
   padding: 0.5rem;
 }
+.update-info {
+   position: fixed;
+   top: 1rem;
+   left: 0rem;
+   z-index: 4;
+   width: 100vw;
+   background-color: red;
+   height: 2rem;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
