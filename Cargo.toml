@@ -1,8 +1,9 @@
 [package]
-name = "vanilla-example"
-version = "0.1.0"
-authors = ["Philip Peterson <pc.peterso@gmail.com>"]
-edition = "2018"
+name = "lovirent-eu"
+version = "3.1.0"
+authors = ["Lovis Rentsch <root@lovirent.eu>"]
+edition = "2021"
+license = "EUPLv1.2"
 
 [dependencies]
 console_error_panic_hook = "0.1"
