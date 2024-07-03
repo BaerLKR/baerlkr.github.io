@@ -97,7 +97,7 @@ li {
                 color: inherit;
         }
 }
-.source {
+.source, .rust {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -113,4 +113,9 @@ li {
         &:hover {
                 color: var(--gold);
         }
+}
+.rust {
+        left: 0;
+        width: min-content;
+        aspect-ratio: 1;
 }
