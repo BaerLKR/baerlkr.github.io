@@ -1,9 +1,8 @@
 #![recursion_limit = "1024"]
 
+use console_error_panic_hook::set_once as set_panic_hook;
 use std::cell::RefCell;
 use std::rc::Rc;
-
-use console_error_panic_hook::set_once as set_panic_hook;
 use wasm_bindgen::prelude::*;
 use wasm_bindgen::JsCast;
 use web_sys::window;
@@ -33,8 +32,7 @@ fn cursor_glow() {
         .unwrap();
     let closure = Closure::wrap(Box::new(move |event: web_sys::MouseEvent| {
         let height = div.scroll_height();
-        let x = event.client_x();
-        let y = event.client_y();
+        let (x, y) = (event.client_x(), event.client_y());
         div.style()
             .set_property("left", &format!("{}px", x - height / 2))
             .unwrap();

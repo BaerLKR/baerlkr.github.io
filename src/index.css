@@ -38,6 +38,7 @@ body {
             height: 30%;
             filter: blur(30rem);
             background-color: var(--foam);
+            /* background-color: var(--gold); */
             border-radius: 50%;
             text-align: center;
             line-height: 50px;
@@ -48,12 +49,17 @@ body {
 }
 main {
         background-color: var(--base);
-        height: clamp(10rem, 45vh, 40rem);
+        height: fit-content;
         width: clamp(20rem, 40vw, 40rem);
         z-index: 2;
-        border-radius: 3rem;
+        border-radius: 2rem;
         box-shadow: 0 0 3rem var(--iris);
         padding: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-around;
 }
 img {
         border-radius: 10%;
@@ -63,4 +69,31 @@ img {
 #name {
         /* text-shadow: 0 0 1rem var(--gold); */
         font-family: monospace;
+        /* color: var(--gold); */
+}
+.links {
+        display: flex;
+        list-style: none;
+}
+.content-container {
+        gap: 1rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+}
+ol {
+        display: flex;
+        justify-content: space-around;
+}
+li {
+        color: var(--iris);
+        transition: all .3s ease;
+        &:hover {
+                color: var(--foam);
+                transform: scale(1.1);
+        }
+        a {
+                text-decoration: none;
+                color: inherit;
+        }
 }
