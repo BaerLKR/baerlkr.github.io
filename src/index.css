@@ -1,0 +1,66 @@
+    :root {
+        --base: #191724;
+        --surface: #1f1d2e;
+        --overlay: #26233a;
+        --muted: #6e6a86;
+        --subtle: #908caa;
+        --text: #e0def4;
+        --love: #eb6f92;
+        --gold: #f6c177;
+        --rose: #ebbcba;
+        --pine: #31748f;
+        --foam: #9ccfd8;
+        --iris: #c4a7e7;
+        --high-low: #21202e;
+        --high-med: #403d52;
+        --high-high: #524f67;
+}
+* {
+        margin: 0;
+        padding: 0;
+}
+html {
+        font-size: clamp(1rem, 2.5vw, 2rem);
+}
+body {
+        font-size: 20pt;
+        color: var(--text);
+        background-color: var(--overlay);
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+}
+#follower {
+            aspect-ratio: 1;
+            height: 30%;
+            filter: blur(30rem);
+            background-color: var(--foam);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            position: absolute;
+            pointer-events: none;
+            z-index: 1;
+}
+main {
+        background-color: var(--base);
+        height: clamp(10rem, 45vh, 40rem);
+        width: clamp(20rem, 40vw, 40rem);
+        z-index: 2;
+        border-radius: 3rem;
+        box-shadow: 0 0 3rem var(--iris);
+        padding: 1.5rem;
+}
+img {
+        border-radius: 10%;
+        position: relative;
+        aspect-ratio: 1;
+}
+#name {
+        /* text-shadow: 0 0 1rem var(--gold); */
+        font-family: monospace;
+}
