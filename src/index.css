@@ -97,3 +97,16 @@ li {
                 color: inherit;
         }
 }
+.source {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        color: var(--high-high);
+        padding: .5rem;
+        margin: .5rem;
+        display: grid;
+        place-content: center;
+        z-index: 2;
+        background-color: inherit;
+}
