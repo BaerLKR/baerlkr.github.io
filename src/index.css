@@ -109,4 +109,8 @@ li {
         place-content: center;
         z-index: 2;
         background-color: inherit;
+        transition: all .3s ease;
+        &:hover {
+                color: var(--gold);
+        }
 }
