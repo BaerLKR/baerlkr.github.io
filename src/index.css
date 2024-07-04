@@ -20,10 +20,9 @@
         padding: 0;
 }
 html {
-        font-size: clamp(1rem, 2.5vw, 2rem);
-        font-family: Nunito,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+        scroll-behavior: smooth;
 }
-body {
+#intro {
         font-size: 20pt;
         color: var(--text);
         background-color: var(--overlay);
@@ -32,7 +31,10 @@ body {
         align-items: center;
         justify-content: center;
         height: 100vh;
+        width: 100vw;
         overflow: hidden;
+        position: fixed;
+        top: 0;
 }
 #follower {
             aspect-ratio: 1;
@@ -48,17 +50,33 @@ body {
             pointer-events: none;
             z-index: 1;
 }
+#about {
+        height: 100vh;
+        z-index: 2;
+        margin-top: 100vh;
+        position: relative;
+        background-color: var(--base);
+}
 main {
+        --rem:  clamp(1rem, 2.5vw, 2rem);
         background-color: var(--base);
         height: fit-content;
-        width: clamp(20rem, 40vw, 40rem);
+        width: clamp(
+                calc(var(--rem) * 20),
+                40vw,
+                calc(var(--rem) * 40)
+        );
         z-index: 2;
-        border-radius: 2rem;
-        box-shadow: 0 0 3rem var(--iris);
-        padding: 1.5rem;
+        border-radius: calc(var(--rem) * 2);
+        box-shadow: 0 0 calc(3 * var(--rem)) var(--iris);
+        padding: clamp(
+                var(--rem),
+                2.5vw,
+                var(--rem) * 2
+        );
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: var(--rem);
         align-items: center;
         justify-content: space-around;
 }
@@ -137,7 +155,7 @@ li {
                 color: inherit;
         }
 }
-.source, .rust {
+.source, .rust, .down-link {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -159,4 +177,22 @@ li {
         width: min-content;
         aspect-ratio: 1;
         border: none;
+}
+@keyframes jiggle {
+        from {
+                transform: translateY(-.3rem);
+        }
+        to {
+                transform: translateY(.3rem);
+        }
+}
+.down-link {
+        color: var(--gold);
+        left: auto;
+        right: auto;
+        &:hover {
+                color: var(--love);
+                /* animation: .5s ease-in-out alternate repeat jiggle; */
+                animation: jiggle .5s infinite alternate;
+        }
 }
