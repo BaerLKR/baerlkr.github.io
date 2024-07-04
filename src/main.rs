@@ -139,7 +139,6 @@ fn rust() {
         } else {
             r.set_inner_html(RUST);
         }
-        log("rust uwu");
     }) as Box<dyn FnMut()>);
     rust_elem
         .add_event_listener_with_callback("click", rust_effect.as_ref().unchecked_ref())
