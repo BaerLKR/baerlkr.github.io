@@ -51,11 +51,51 @@ html {
             z-index: 1;
 }
 #about {
-        height: 100vh;
         z-index: 2;
+        box-sizing: border-box;
         margin-top: 100vh;
+        padding: 10%;
+        padding-top: 10vh;
         position: relative;
         background-color: var(--base);
+        color: var(--text);
+        h3, h2 {
+                color: var(--gold);
+        }
+        h4 {
+                text-align: center;
+        }
+        p {
+                padding: 1rem;
+                max-width: 85%;
+        }
+        a {
+                color: var(--pine);
+                transition: all .5s ease;
+                &:hover {
+                        color: var(--foam);
+                }
+        }
+        summary {
+                display: inline;
+                display: flex;
+                align-items: center;
+                .open-icon {
+                        color: var(--love);
+                        padding: .5rem;
+                        transform: rotate(.75turn);
+                }
+                &::after {
+                        content: '';
+                        width: 80%;
+                        height: .25rem;
+                        background-color: var(--gold);
+                        border-radius: .2rem;
+                }
+        }
+        details[open] > summary > .open-icon {
+                transform: rotate(0turn);
+        }
 }
 main {
         --rem:  clamp(1rem, 2.5vw, 2rem);
@@ -190,6 +230,7 @@ li {
         color: var(--gold);
         left: auto;
         right: auto;
+        transition: all .3s ease;
         &:hover {
                 color: var(--love);
                 /* animation: .5s ease-in-out alternate repeat jiggle; */
