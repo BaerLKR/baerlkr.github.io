@@ -1,16 +1,16 @@
 #![recursion_limit = "1024"]
 
 use console_error_panic_hook::set_once as set_panic_hook;
-use std::cell::RefCell;
-use std::rc::Rc;
-use wasm_bindgen::prelude::*;
-use wasm_bindgen::JsCast;
-use web_sys::window;
-use web_sys::HtmlElement;
+use std::{
+    cell::{Cell, RefCell},
+    rc::Rc,
+};
+use wasm_bindgen::{prelude::*, JsCast};
+use web_sys::{window, CanvasRenderingContext2d, HtmlElement};
 
 const LENGTH: usize = ALPHABET.len();
 const ALPHABET: &str =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/()=?!+*~";
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/()=?!+*~{}[]";
 const NAME: &str = "Lovis Rentsch";
 
 #[wasm_bindgen]
@@ -47,7 +47,7 @@ fn cursor_glow() {
 }
 fn text_animation() {
     const ANIMATION_INTERVAL: i32 = 120;
-    let animation_ongoing = Rc::new(RefCell::new(false));
+    let animation_ongoing = Rc::new(Cell::new(false));
     let js_window = window().unwrap();
     let document = js_window.document().unwrap();
     let name_element = document.get_element_by_id("name").unwrap();
@@ -127,6 +127,7 @@ fn rust() {
         .unwrap()
         .get_element_by_id("rust")
         .unwrap();
+    let mut handle = 0;
     let rust_effect = Closure::wrap(Box::new(move || {
         nix = !nix;
         let r = window
@@ -136,14 +137,174 @@ fn rust() {
             .unwrap();
         if nix {
             r.set_inner_html(NIX);
+            handle = matrix(None).unwrap();
         } else {
             r.set_inner_html(RUST);
+            matrix(Some(handle));
         }
     }) as Box<dyn FnMut()>);
     rust_elem
         .add_event_listener_with_callback("click", rust_effect.as_ref().unchecked_ref())
         .unwrap();
     rust_effect.forget();
+}
+
+struct Theme {
+    base: &'static str,
+    surface: &'static str,
+    overlay: &'static str,
+    muted: &'static str,
+    subtle: &'static str,
+    text: &'static str,
+    love: &'static str,
+    gold: &'static str,
+    rose: &'static str,
+    pine: &'static str,
+    foam: &'static str,
+    iris: &'static str,
+    high_low: &'static str,
+    high_med: &'static str,
+    high_high: &'static str,
+}
+const ROSE_PINE: Theme = Theme {
+    base: "#191724",
+    surface: "#1f1d2e",
+    overlay: "#26233a",
+    muted: "#6e6a86",
+    subtle: "#908caa",
+    text: "#e0def4",
+    love: "#eb6f92",
+    gold: "#f6c177",
+    rose: "#ebbcba",
+    pine: "#31748f",
+    foam: "#9ccfd8",
+    iris: "#c4a7e7",
+    high_low: "#21202e",
+    high_med: "#403d52",
+    high_high: "#524f67",
+};
+const HACKER: Theme = Theme {
+    base: "#090300",
+    surface: "#00ab42",
+    overlay: "#006e2b",
+    muted: "#7f0392",
+    subtle: "#6c007d",
+    text: "#7f0392",
+    love: "#fff",
+    gold: "#ffaf42",
+    rose: "#cfff42",
+    pine: "#31748f",
+    foam: "#ffaf42",
+    iris: "#cfff42",
+    high_low: "#00ab42",
+    high_med: "#403d52",
+    high_high: "#05e226",
+};
+fn theme(theme: Theme) {
+    log("theme");
+    let doc = window()
+        .unwrap()
+        .document()
+        .unwrap()
+        .document_element()
+        .unwrap()
+        .dyn_into::<HtmlElement>()
+        .unwrap()
+        .style();
+    doc.set_property("--base", theme.base).unwrap();
+    doc.set_property("--surface", theme.surface).unwrap();
+    doc.set_property("--overlay", theme.overlay).unwrap();
+    doc.set_property("--muted", theme.muted).unwrap();
+    doc.set_property("--subtle", theme.subtle).unwrap();
+    doc.set_property("--text", theme.text).unwrap();
+    doc.set_property("--love", theme.love).unwrap();
+    doc.set_property("--gold", theme.gold).unwrap();
+    doc.set_property("--rose", theme.rose).unwrap();
+    doc.set_property("--pine", theme.pine).unwrap();
+    doc.set_property("--foam", theme.foam).unwrap();
+    doc.set_property("--iris", theme.iris).unwrap();
+    doc.set_property("--high-low", theme.high_low).unwrap();
+    doc.set_property("--high-med", theme.high_med).unwrap();
+    doc.set_property("--high-high", theme.high_high).unwrap();
+}
+
+fn matrix(cleanup: Option<i32>) -> Option<i32> {
+    let win = window().unwrap();
+    let doc = win.document().unwrap();
+    let canvas = doc
+        .get_element_by_id("matrix-canvas")
+        .unwrap()
+        .dyn_into::<web_sys::HtmlCanvasElement>()
+        .unwrap();
+    if let Some(handle) = cleanup {
+        win.clear_interval_with_handle(handle);
+        theme(ROSE_PINE);
+        canvas.style().set_property("display", "none").unwrap();
+        None
+    } else {
+        theme(HACKER);
+        canvas.style().set_property("display", "block").unwrap();
+        canvas.set_height(win.inner_height().unwrap().as_f64().unwrap() as u32);
+        canvas.set_width(win.inner_width().unwrap().as_f64().unwrap() as u32);
+        let ctx = Rc::new(RefCell::new(
+            canvas
+                .get_context("2d")
+                .unwrap()
+                .unwrap()
+                .dyn_into::<web_sys::CanvasRenderingContext2d>()
+                .unwrap(),
+        ));
+        let (height, width) = (canvas.scroll_height(), canvas.scroll_width());
+        let font_size = 16;
+        let columns = width / font_size;
+        let drops = Rc::new(RefCell::new(vec![
+            (random() * height as f32) as i32;
+            columns as usize
+        ]));
+        let callback = Closure::wrap(Box::new(move || {
+            draw(ctx.clone(), drops.clone(), &width, &height, &font_size);
+        }) as Box<dyn Fn()>);
+        let handle = window()
+            .unwrap()
+            .set_interval_with_callback_and_timeout_and_arguments_0(
+                callback.as_ref().unchecked_ref(),
+                33,
+            )
+            .unwrap();
+        callback.forget();
+        Some(handle)
+    }
+}
+
+fn draw(
+    ctx: Rc<RefCell<CanvasRenderingContext2d>>,
+    drops: Rc<RefCell<Vec<i32>>>,
+    width: &i32,
+    height: &i32,
+    font_size: &i32,
+) {
+    let ctx: std::cell::Ref<CanvasRenderingContext2d> = (*ctx).borrow();
+    let mut drops = (*drops).borrow_mut();
+    ctx.set_font("15pt monospace");
+    ctx.set_fill_style(&"rgba(0,0,0,.1)".into());
+    ctx.fill_rect(0., 0., (*width).into(), (*height).into());
+    for i in 0..drops.len() {
+        let text = ALPHABET
+            .chars()
+            .nth((random() * LENGTH as f32) as usize)
+            .unwrap();
+        ctx.set_fill_style(&HACKER.high_high.into());
+        ctx.fill_text(
+            text.to_string().as_str(),
+            (i * *font_size as usize) as f64,
+            (drops[i] * font_size) as f64,
+        )
+        .unwrap();
+        drops[i] += 1;
+        if drops[i] * font_size > *height && random() > 0.95 {
+            drops[i] = 0;
+        }
+    }
 }
 
 fn main() {

@@ -53,12 +53,13 @@ html {
 #about {
         z-index: 2;
         box-sizing: border-box;
-        margin-top: 100vh;
+        margin-top: calc(100vh + 4rem);
         padding: 10%;
         padding-top: 10vh;
         position: relative;
         background-color: var(--base);
         color: var(--text);
+        box-shadow: 0 -1rem 3rem var(--rose);
         h3, h2 {
                 color: var(--gold);
         }
@@ -236,4 +237,10 @@ li {
                 /* animation: .5s ease-in-out alternate repeat jiggle; */
                 animation: jiggle .5s infinite alternate;
         }
+}
+#matrix-canvas {
+        /* opacity: .5; */
+        display: block;
+        position: fixed;
+        top: 0;
 }
