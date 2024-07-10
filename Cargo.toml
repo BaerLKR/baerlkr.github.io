@@ -1,6 +1,6 @@
 [package]
 name = "lovirent-eu"
-version = "3.1.0"
+version = "3.2.0"
 authors = ["Lovis Rentsch <root@lovirent.eu>"]
 edition = "2021"
 license = "EUPLv1.2"
