@@ -125,6 +125,7 @@ img {
         border-radius: 10%;
         position: relative;
         aspect-ratio: 1;
+        width: clamp(5rem, 60vw, 20rem);
 }
 .tooltip {
   position: relative;
