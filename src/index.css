@@ -78,20 +78,29 @@ html {
                 }
         }
         summary {
-                display: inline;
-                display: flex;
-                align-items: center;
+                display: grid;
+                grid-template-columns: 1fr 5fr 30fr;
                 .open-icon {
                         color: var(--love);
                         padding: .5rem;
                         transform: rotate(.75turn);
+                        justify-self: start;
+                        align-self: center;
+                }
+                h3, h2 {
+                        align-self: center;
+                        justify-self: center;
+                        text-align: center;
                 }
                 &::after {
                         content: '';
-                        width: 80%;
+                        width: 100%;
+                        justify-self: end;
                         height: .25rem;
                         background-color: var(--gold);
                         border-radius: .2rem;
+                        margin-left: 1ch;
+                        align-self: center;
                 }
         }
         details[open] > summary > .open-icon {
