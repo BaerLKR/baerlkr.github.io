@@ -306,8 +306,8 @@ fn draw(
         }
     }
 }
-
 fn main() {
+    #[cfg(debug_assertions)]
     set_panic_hook();
     text_animation();
     rust();
