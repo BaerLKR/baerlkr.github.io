@@ -194,7 +194,7 @@ ol {
         display: flex;
         justify-content: space-around;
 }
-li {
+.links > li {
         color: var(--iris);
         transition: all .3s ease;
         &:hover {
@@ -253,4 +253,7 @@ li {
         display: block;
         position: fixed;
         top: 0;
+}
+.projects > ul > li {
+        transform: translateX(5rem);
 }
