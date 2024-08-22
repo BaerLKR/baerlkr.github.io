@@ -1,4 +1,3 @@
-use crate::log;
 use wasm_bindgen::JsCast;
 use web_sys::{window, HtmlElement};
 

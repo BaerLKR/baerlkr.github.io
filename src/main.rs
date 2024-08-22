@@ -25,6 +25,6 @@ fn main() {
     set_panic_hook();
     text::text_animation();
     easter::rust();
-    blog::blog();
+    wasm_bindgen_futures::spawn_local(blog::blog());
     glow::cursor_glow();
 }

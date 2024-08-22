@@ -254,6 +254,6 @@ ol {
         position: fixed;
         top: 0;
 }
-.projects > ul > li {
+.projects > ul > li, #blog-feed {
         transform: translateX(5rem);
 }
