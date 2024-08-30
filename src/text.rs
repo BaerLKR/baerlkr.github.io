@@ -20,7 +20,9 @@ pub fn text_animation() {
                 .chars()
                 .enumerate()
                 .map(|(i, c)| {
-                    if iteration >= NAME.len() + i {
+                    if i == 5 {
+                        ' '
+                    } else if iteration >= NAME.len() + i {
                         c
                     } else if i < iteration {
                         ALPHABET
