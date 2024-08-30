@@ -25,6 +25,6 @@ pub async fn blog() {
     if cont.is_empty() {
         feed_element.set_text_content(Some("no posts yet"));
     } else {
-        feed_element.set_text_content(Some(&cont));
+        feed_element.set_inner_html(&cont);
     }
 }
