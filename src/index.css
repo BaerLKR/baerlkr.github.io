@@ -101,6 +101,9 @@ html {
                         margin-left: 1ch;
                         align-self: center;
                 }
+                &::-webkit-details-marker {
+                        display: none;
+                }
         }
         details[open] > summary > .open-icon {
                 transform: rotate(0turn);
