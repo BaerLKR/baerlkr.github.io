@@ -3,10 +3,10 @@ use std::{cell::Cell, rc::Rc};
 use wasm_bindgen::{prelude::*, JsCast};
 use web_sys::{window, HtmlElement};
 
-const LENGTH: usize = ALPHABET.len();
-const ALPHABET: &str =
+pub const LENGTH: usize = ALPHABET.len();
+pub const ALPHABET: &str =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/()=?!+*~{}[]";
-const NAME: &str = "Lovis Rentsch";
+pub const NAME: &str = "Lovis Rentsch";
 
 pub fn text_animation() {
     const ANIMATION_INTERVAL: i32 = 120;

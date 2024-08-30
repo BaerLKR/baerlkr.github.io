@@ -9,10 +9,6 @@ pub mod theme;
 use console_error_panic_hook::set_once as set_panic_hook;
 use wasm_bindgen::prelude::*;
 
-const LENGTH: usize = ALPHABET.len();
-const ALPHABET: &str =
-    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/()=?!+*~{}[]";
-
 #[wasm_bindgen]
 extern "C" {
     #[wasm_bindgen(js_namespace = Math)]

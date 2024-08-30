@@ -1,7 +1,7 @@
 use crate::{
     random,
+    text::{ALPHABET, LENGTH},
     theme::{theme, HACKER, ROSE_PINE},
-    ALPHABET, LENGTH,
 };
 use std::{cell::RefCell, rc::Rc};
 use wasm_bindgen::{prelude::*, JsCast};

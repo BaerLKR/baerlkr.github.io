@@ -39,9 +39,8 @@ html {
 #follower {
             aspect-ratio: 1;
             height: 30%;
-            filter: blur(30rem);
+            filter: blur(5rem);
             background-color: var(--foam);
-            /* background-color: var(--gold); */
             border-radius: 50%;
             text-align: center;
             line-height: 50px;
