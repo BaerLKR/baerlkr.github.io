@@ -256,6 +256,29 @@ ol {
         position: fixed;
         top: 0;
 }
-.projects > ul > li, #blog-feed {
+.feed-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div {
+                justify-self: center;
+                text-align: center;
+                border-radius: 2rem;
+                background-color: var(--overlay);
+                padding: 3rem;
+                width: 30%;
+                li {
+                        text-align: left;
+                }
+        }
+}
+.projects > ul > li, #blog-feed, #blog-feed-en {
         transform: translateX(5rem);
+}
+#blog-feed::before {
+        content: 'german:';
+}
+
+#blog-feed-en::before {
+        content: 'english:';
 }
