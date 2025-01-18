@@ -282,3 +282,9 @@ ol {
 #blog-feed-en::before {
         content: 'english:';
 }
+footer {
+        padding: 0 5rem;
+        color: var(--muted);
+        display: flex;
+        justify-content: space-around;
+}
