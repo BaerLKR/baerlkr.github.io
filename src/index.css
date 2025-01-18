@@ -272,7 +272,7 @@ ol {
                 }
         }
 }
-.projects > ul > li, #blog-feed, #blog-feed-en {
+.projects > ul > li, #blog-feed, #blog-feed-en, .key-drawer > ul {
         transform: translateX(5rem);
 }
 #blog-feed::before {
@@ -283,8 +283,6 @@ ol {
         content: 'english:';
 }
 footer {
-        padding: 0 5rem;
         color: var(--muted);
-        display: flex;
-        justify-content: space-around;
+        text-align: center;
 }
