@@ -272,7 +272,7 @@ ol {
                 }
         }
 }
-.projects > ul > li, #blog-feed, #blog-feed-en, .key-drawer > ul {
+.projects > ul > li, #blog-feed, #blog-feed-en {
         transform: translateX(5rem);
 }
 #blog-feed::before {
@@ -285,4 +285,14 @@ ol {
 footer {
         color: var(--muted);
         text-align: center;
+}
+html {
+        background-color: var(--base);
+}
+.key-drawer > ul {
+        padding-left: 5rem;
+        overflow: auto;
+}
+pre, code {
+        background-color: var(--overlay);
 }
