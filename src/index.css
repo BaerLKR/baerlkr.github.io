@@ -293,6 +293,19 @@ html {
         padding-left: 5rem;
         overflow: auto;
 }
-pre, code {
-        background-color: var(--overlay);
+.buttons > a > img {
+        border-radius: 0;
+        aspect-ratio: auto;
+        width: 88px;
+        margin: .5rem;
+}
+.buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: center;
+        padding: 0 20%;
+}
+.well-known {
+        color: var(--muted);
 }
