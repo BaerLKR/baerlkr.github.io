@@ -1,0 +1,14 @@
+{
+  "$schema": "https://codeberg.org/LunarEclipse/well-known-button/raw/commit/2125d4c8ae8d6e677fa0e26ceca819beaede2d0c/drafts/button-2024-06.schema.json",
+  "default": "Lovis",
+  "buttons": [
+    {
+      "id": "lovirent",
+      "alt": "88x31 lovirent.eu",
+      "link": "https://lovirent.eu",
+      "uri": "https://lovirent.eu/88x31.gif",
+      "colorScheme": "dark",
+      "animations": "minimal"
+    }
+  ]
+}
