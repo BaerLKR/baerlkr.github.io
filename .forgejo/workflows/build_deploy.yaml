@@ -1,0 +1,18 @@
+on: [push]
+jobs:
+  build:
+    runs-on: host
+    steps:
+      - run: |
+          git config --global http.sslVerify false
+          git clone https://git.lovirent.eu/pacman/lovirent.eu
+      - run: |
+          cd lovirent.eu
+          nix build --extra-experimental-features nix-command --extra-experimental-features flakes
+      - run: |
+          mkdir public
+          cp -r lovirent.eu/result/ public
+      - run: |
+          chmod +w -R /var/lib/runner/lovirent
+          rm -rf /var/lib/runner/lovirent/*
+          cp -r public/ /var/lib/runner/lovirent
