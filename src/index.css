@@ -1,142 +1,136 @@
-    :root {
-        --base: #191724;
-        --surface: #1f1d2e;
-        --overlay: #26233a;
-        --muted: #6e6a86;
-        --subtle: #908caa;
-        --text: #e0def4;
-        --love: #eb6f92;
-        --gold: #f6c177;
-        --rose: #ebbcba;
-        --pine: #31748f;
-        --foam: #9ccfd8;
-        --iris: #c4a7e7;
-        --high-low: #21202e;
-        --high-med: #403d52;
-        --high-high: #524f67;
+:root {
+  --base: #191724;
+  --surface: #1f1d2e;
+  --overlay: #26233a;
+  --muted: #6e6a86;
+  --subtle: #908caa;
+  --text: #e0def4;
+  --love: #eb6f92;
+  --gold: #f6c177;
+  --rose: #ebbcba;
+  --pine: #31748f;
+  --foam: #9ccfd8;
+  --iris: #c4a7e7;
+  --high-low: #21202e;
+  --high-med: #403d52;
+  --high-high: #524f67;
 }
 * {
-        margin: 0;
-        padding: 0;
+  margin: 0;
+  padding: 0;
 }
 html {
-        scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 #intro {
-        font-size: 20pt;
-        color: var(--text);
-        background-color: var(--overlay);
-        font-family: sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
+  font-size: 20pt;
+  color: var(--text);
+  background-color: var(--overlay);
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 #follower {
-            aspect-ratio: 1;
-            height: 30%;
-            filter: blur(5rem);
-            background-color: var(--foam);
-            border-radius: 50%;
-            text-align: center;
-            line-height: 50px;
-            font-size: 24px;
-            position: absolute;
-            pointer-events: none;
-            z-index: 1;
+  aspect-ratio: 1;
+  height: 30%;
+  filter: blur(5rem);
+  background-color: var(--foam);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
 }
 #about {
-        z-index: 2;
-        box-sizing: border-box;
-        margin-top: calc(100vh + 4rem);
-        padding: 10%;
-        padding-top: 10vh;
-        position: relative;
-        background-color: var(--base);
-        color: var(--text);
-        box-shadow: 0 -1rem 3rem var(--rose);
-        h3, h2 {
-                color: var(--gold);
-        }
-        h4 {
-                text-align: center;
-        }
-        p {
-                padding: 1rem;
-                max-width: 85%;
-        }
-        a {
-                color: var(--pine);
-                transition: all .5s ease;
-                &:hover {
-                        color: var(--foam);
-                }
-        }
-        summary {
-                display: grid;
-                grid-template-columns: 1fr 5fr 30fr;
-                .open-icon {
-                        color: var(--love);
-                        padding: .5rem;
-                        transform: rotate(.75turn);
-                        justify-self: start;
-                        align-self: center;
-                }
-                h3, h2 {
-                        align-self: center;
-                        justify-self: center;
-                        text-align: center;
-                }
-                &::after {
-                        content: '';
-                        width: 100%;
-                        justify-self: end;
-                        height: .25rem;
-                        background-color: var(--gold);
-                        border-radius: .2rem;
-                        margin-left: 1ch;
-                        align-self: center;
-                }
-                &::-webkit-details-marker {
-                        display: none;
-                }
-        }
-        details[open] > summary > .open-icon {
-                transform: rotate(0turn);
-        }
+  z-index: 2;
+  box-sizing: border-box;
+  margin-top: calc(100vh + 4rem);
+  padding: 10%;
+  padding-top: 10vh;
+  position: relative;
+  background-color: var(--base);
+  color: var(--text);
+  box-shadow: 0 -1rem 3rem var(--rose);
+  h3,
+  h2 {
+    color: var(--gold);
+  }
+  h4 {
+    text-align: center;
+  }
+  p {
+    padding: 1rem;
+    max-width: 85%;
+  }
+  a {
+    color: var(--pine);
+    transition: all 0.5s ease;
+    &:hover {
+      color: var(--foam);
+    }
+  }
+  summary {
+    display: grid;
+    grid-template-columns: 1fr 5fr 30fr;
+    .open-icon {
+      color: var(--love);
+      padding: 0.5rem;
+      transform: rotate(0.75turn);
+      justify-self: start;
+      align-self: center;
+    }
+    h3,
+    h2 {
+      align-self: center;
+      justify-self: center;
+      text-align: center;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      justify-self: end;
+      height: 0.25rem;
+      background-color: var(--gold);
+      border-radius: 0.2rem;
+      margin-left: 1ch;
+      align-self: center;
+    }
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+  details[open] > summary > .open-icon {
+    transform: rotate(0turn);
+  }
 }
 main {
-        --rem:  clamp(1rem, 2.5vw, 2rem);
-        background-color: var(--base);
-        height: fit-content;
-        width: clamp(
-                calc(var(--rem) * 20),
-                40vw,
-                calc(var(--rem) * 40)
-        );
-        z-index: 2;
-        border-radius: calc(var(--rem) * 2);
-        box-shadow: 0 0 calc(3 * var(--rem)) var(--iris);
-        padding: clamp(
-                var(--rem),
-                2.5vw,
-                var(--rem) * 2
-        );
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--rem);
-        align-items: center;
-        justify-content: space-around;
+  --rem: clamp(1rem, 2.5vw, 2rem);
+  background-color: var(--base);
+  height: fit-content;
+  width: clamp(calc(var(--rem) * 20), 40vw, calc(var(--rem) * 40));
+  z-index: 2;
+  border-radius: calc(var(--rem) * 2);
+  box-shadow: 0 0 calc(3 * var(--rem)) var(--iris);
+  padding: clamp(var(--rem), 2.5vw, var(--rem) * 2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--rem);
+  align-items: center;
+  justify-content: space-around;
 }
 img {
-        border-radius: 10%;
-        position: relative;
-        aspect-ratio: 1;
-        width: clamp(5rem, 60vw, 20rem);
+  border-radius: 10%;
+  position: relative;
+  aspect-ratio: 1;
+  width: clamp(5rem, 60vw, 20rem);
 }
 .tooltip {
   position: relative;
@@ -178,134 +172,172 @@ img {
   opacity: 1;
 }
 #name {
-        /* text-shadow: 0 0 1rem var(--gold); */
-        font-family: monospace;
-        /* color: var(--gold); */
+  /* text-shadow: 0 0 1rem var(--gold); */
+  font-family: monospace;
+  /* color: var(--gold); */
 }
 .links {
-        display: flex;
-        list-style: none;
+  display: flex;
+  list-style: none;
 }
 .content-container {
-        gap: 1rem;
-        flex-direction: column;
-        display: flex;
-        justify-content: space-around;
+  gap: 1rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
 }
 ol {
-        display: flex;
-        justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .links > li {
-        color: var(--iris);
-        transition: all .3s ease;
-        &:hover {
-                color: var(--foam);
-                transform: scale(1.1);
-        }
-        a {
-                text-decoration: none;
-                color: inherit;
-        }
+  color: var(--iris);
+  transition: all 0.3s ease;
+  &:hover {
+    color: var(--foam);
+    transform: scale(1.1);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
-.source, .rust, .down-link {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border-radius: 50%;
-        color: var(--high-high);
-        padding: .5rem;
-        margin: .5rem;
-        display: grid;
-        place-content: center;
-        z-index: 2;
-        background-color: inherit;
-        transition: all .3s ease;
-        &:hover {
-                color: var(--gold);
-        }
+.source,
+.rust,
+.down-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  color: var(--high-high);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: grid;
+  place-content: center;
+  z-index: 2;
+  background-color: inherit;
+  transition: all 0.3s ease;
+  &:hover {
+    color: var(--gold);
+  }
 }
 .rust {
-        left: 0;
-        width: min-content;
-        aspect-ratio: 1;
-        border: none;
+  left: 0;
+  width: min-content;
+  aspect-ratio: 1;
+  border: none;
 }
 @keyframes jiggle {
-        from {
-                transform: translateY(-.3rem);
-        }
-        to {
-                transform: translateY(.3rem);
-        }
+  from {
+    transform: translateY(-0.3rem);
+  }
+  to {
+    transform: translateY(0.3rem);
+  }
 }
 .down-link {
-        color: var(--gold);
-        left: auto;
-        right: auto;
-        transition: all .3s ease;
-        &:hover {
-                color: var(--love);
-                /* animation: .5s ease-in-out alternate repeat jiggle; */
-                animation: jiggle .5s infinite alternate;
-        }
+  color: var(--gold);
+  left: auto;
+  right: auto;
+  transition: all 0.3s ease;
+  &:hover {
+    color: var(--love);
+    /* animation: .5s ease-in-out alternate repeat jiggle; */
+    animation: jiggle 0.5s infinite alternate;
+  }
 }
 #matrix-canvas {
-        /* opacity: .5; */
-        display: block;
-        position: fixed;
-        top: 0;
+  /* opacity: .5; */
+  display: block;
+  position: fixed;
+  top: 0;
 }
 .feed-wrapper {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        div {
-                justify-self: center;
-                text-align: center;
-                border-radius: 2rem;
-                background-color: var(--overlay);
-                padding: 3rem;
-                width: 30%;
-                li {
-                        text-align: left;
-                }
-        }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  div {
+    justify-self: center;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: var(--overlay);
+    padding: 3rem;
+    width: 30%;
+    li {
+      text-align: left;
+    }
+  }
 }
-.projects > ul > li, #blog-feed, #blog-feed-en {
-        transform: translateX(5rem);
+.projects > ul > li,
+#blog-feed,
+#blog-feed-en {
+  transform: translateX(5rem);
 }
 #blog-feed::before {
-        content: 'german:';
+  content: "german:";
 }
 
 #blog-feed-en::before {
-        content: 'english:';
+  content: "english:";
 }
 footer {
-        color: var(--muted);
-        text-align: center;
+  color: var(--muted);
+  text-align: center;
 }
 html {
-        background-color: var(--base);
+  background-color: var(--base);
 }
 .key-drawer > ul {
-        padding-left: 5rem;
-        overflow: auto;
+  padding-left: 5rem;
+  overflow: auto;
 }
 .buttons > a > img {
-        border-radius: 0;
-        aspect-ratio: auto;
-        width: 88px;
-        margin: .5rem;
+  border-radius: 0;
+  aspect-ratio: auto;
+  width: 88px;
+  margin: 0.5rem;
 }
 .buttons {
-        display: flex;
-        flex-wrap: wrap;
-        align-self: center;
-        justify-content: center;
-        padding: 0 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  padding: 0 20%;
 }
 .well-known {
-        color: var(--muted);
+  color: var(--muted);
+}
+.webring-cont {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+}
+.webring {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--surface);
+  border-radius: 2rem;
+  padding: 1.5rem;
+  width: 30%;
+  justify-self: center;
+  gap: 1rem;
+  p {
+    text-align: center;
+  }
+  .webring-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2ch;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--overlay);
+  }
+  .webring-home {
+    color: var(--text) !important;
+  }
 }
