@@ -1,0 +1,64 @@
+name: Nix Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Nix
+        uses: cachix/install-nix-action@v26
+        with:
+          nix_conf: experimental-features = nix-command flakes
+
+      - name: Build with Nix
+        run: nix build --print-build-logs
+
+      # - name: Adjust permissions
+      #   run: |
+      #     ls -la
+      #     ls -la result/
+      #     sudo chmod -R a+rwx ./result
+      #     sudo chown -R `id -u`:`id -g` ./result
+
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: result/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    steps:
+      # - name: Checkout repository
+      #   uses: actions/checkout@v2
+
+      # - name: Download build artifact
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: build-result
+
+      - name: pages
+        uses: actions/deploy-pages@v4
+
+      # # Specify runner + deployment step
+      # runs-on: ubuntu-latest
+      # steps:
+      #   - name: Deploy to GitHub Pages
+      #     id: deployment
+      #     uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+      #
