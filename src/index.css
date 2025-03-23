@@ -291,11 +291,16 @@ html {
   padding-left: 5rem;
   overflow: auto;
 }
-.buttons > a > img {
+.buttons > a > img,
+#badge {
   border-radius: 0;
   aspect-ratio: auto;
   width: 88px;
   margin: 0.5rem;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
 .buttons {
   display: flex;
