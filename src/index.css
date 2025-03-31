@@ -15,12 +15,25 @@
   --high-med: #403d52;
   --high-high: #524f67;
 }
+/* maple-mono-latin-400-normal */
+@font-face {
+  font-family: "Maple Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-400-normal.woff)
+      format("woff");
+}
 * {
   margin: 0;
   padding: 0;
 }
 html {
   scroll-behavior: smooth;
+  font-family: "Maple Mono";
 }
 #intro {
   font-size: 20pt;
@@ -112,7 +125,7 @@ html {
   }
 }
 main {
-  --rem: clamp(1rem, 2.5vw, 2rem);
+  --rem: clamp(1.2rem, 2.5vw, 2.2rem);
   background-color: var(--base);
   height: fit-content;
   width: clamp(calc(var(--rem) * 20), 40vw, calc(var(--rem) * 40));
@@ -173,7 +186,8 @@ img {
 }
 #name {
   /* text-shadow: 0 0 1rem var(--gold); */
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: "Maple Mono";
   /* color: var(--gold); */
 }
 .links {
