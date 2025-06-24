@@ -7,7 +7,7 @@ pub const LENGTH: usize = ALPHABET.len();
 pub const ALPHABET: &str =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/()=?!+*~{}[]";
 pub const NAME: &str = "Lovis Rentsch";
-pub const PACMAN: &str = "pacman";
+pub const PACMAN: &str = "pacman  ";
 const ANIMATION_INTERVAL: i32 = 120;
 
 pub fn pacman() {
@@ -29,11 +29,14 @@ pub fn pacman() {
                 .map(|(i, c)| {
                     if iteration >= PACMAN.len() + i {
                         c
+                    } else if i < iteration - 1 {
+                        '-'
                     } else if i < iteration {
-                        ALPHABET
-                            .chars()
-                            .nth((random() * LENGTH as f32) as usize)
-                            .unwrap()
+                        if iteration % 2 == 0 {
+                            'c'
+                        } else {
+                            'C'
+                        }
                     } else {
                         c
                     }
@@ -54,13 +57,13 @@ pub fn pacman() {
                     .unwrap();
                 win.set_timeout_with_callback_and_timeout_and_arguments_0(
                     end_animation.as_ref().unchecked_ref(),
-                    (PACMAN.len() as i32 * 2) * ANIMATION_INTERVAL,
+                    (PACMAN.len() as i32 * 2) * ANIMATION_INTERVAL * 3,
                 )
                 .unwrap();
                 for i in 0..(PACMAN.len() as i32 * 2) {
                     win.set_timeout_with_callback_and_timeout_and_arguments_2(
                         anim.as_ref().unchecked_ref(),
-                        i * ANIMATION_INTERVAL,
+                        i * ANIMATION_INTERVAL * 3,
                         &i.into(),
                         &elem.to_owned(),
                     )
