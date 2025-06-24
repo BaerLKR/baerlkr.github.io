@@ -184,11 +184,16 @@ img {
   visibility: visible;
   opacity: 1;
 }
-#name {
+#name,
+#name-small {
   /* text-shadow: 0 0 1rem var(--gold); */
   /* font-family: monospace; */
   font-family: "Maple Mono";
   /* color: var(--gold); */
+}
+#name-small {
+  padding: 0;
+  color: var(--gold);
 }
 .links {
   display: flex;
