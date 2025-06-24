@@ -29,15 +29,16 @@ pub fn pacman() {
                 .map(|(i, c)| {
                     if iteration >= PACMAN.len() + i {
                         c
-                    } else if i < iteration - 1 {
-                        '-'
-                    } else if i < iteration {
-                        if iteration % 2 == 0 {
-                            'c'
-                        } else {
+                    } else if i == iteration {
+                        if i % 2 == 0 {
                             'C'
+                        } else {
+                            'c'
                         }
+                    } else if i < iteration {
+                        '-'
                     } else {
+                        // '*'
                         c
                     }
                 })
