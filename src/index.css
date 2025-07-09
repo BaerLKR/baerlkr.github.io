@@ -75,7 +75,6 @@ html {
   h3,
   h2 {
     color: var(--gold);
-    text-wrap: nowrap;
   }
   h4 {
     text-align: center;
@@ -106,6 +105,8 @@ html {
       align-self: center;
       justify-self: center;
       text-align: center;
+      padding-right: 1ch;
+      text-wrap: nowrap;
     }
     &::after {
       content: "";
