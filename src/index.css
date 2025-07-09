@@ -365,3 +365,6 @@ html {
     color: var(--text) !important;
   }
 }
+#fedi {
+  scale: 1.1;
+}
