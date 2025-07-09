@@ -75,6 +75,7 @@ html {
   h3,
   h2 {
     color: var(--gold);
+    text-wrap: nowrap;
   }
   h4 {
     text-align: center;
