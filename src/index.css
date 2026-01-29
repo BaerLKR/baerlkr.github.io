@@ -290,16 +290,8 @@ ol {
   }
 }
 .projects > ul > li,
-#blog-feed,
-#blog-feed-en {
+#blog-feed {
   transform: translateX(5rem);
-}
-#blog-feed::before {
-  content: "german:";
-}
-
-#blog-feed-en::before {
-  content: "english:";
 }
 footer {
   color: var(--muted);
