@@ -8,11 +8,8 @@ license = "EUPLv1.2"
 [dependencies]
 console_error_panic_hook = "0.1"
 compile-time = "0.2.0"
-reqwest = "0.12.7"
-rss = "2.0.8"
 wasm-timer = "0.2.5"
 wasm-bindgen = "0.2"
-wasm-bindgen-futures = "0.4.43"
 web-sys = { version = "0.3", features = ["Window", "Document", "HtmlElement", "Event", "MouseEvent", "console", "CssStyleDeclaration", "EventTarget", "EventListener", "CssStyleRule", "HtmlCanvasElement", "CanvasRenderingContext2d"] }
 
 [profile.release]

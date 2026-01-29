@@ -1,6 +1,5 @@
 #![recursion_limit = "1024"]
 
-pub mod blog;
 pub mod easter;
 pub mod glow;
 pub mod text;
@@ -23,7 +22,6 @@ fn main() {
     text::text_animation();
     text::pacman();
     easter::rust();
-    wasm_bindgen_futures::spawn_local(blog::blog());
     glow::cursor_glow();
     time::render();
 }
