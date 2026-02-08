@@ -1,0 +1,193 @@
+<!-- vim: set nomodeline: -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>toughts on erlang</title>
+<meta name="colorscheme" content="catppuccin-mocha"></meta>
+<style>
+* {font-family: monospace}
+body {background-color: #11111c; color: #cdd6f5}
+.Special {color: #f5c2e8}
+.-markup-raw {color: #a6e3a2}
+.-markup-list {color: #94e2d6}
+.Function {color: #89b4fb}
+.-punctuation-bracket {color: #9399b3}
+.-markup-link-label {color: #b4beff}
+.-ibl-whitespace-char-1 {color: #45475b}
+.String {color: #a6e3a2}
+.-markup-heading-markdown {font-weight: bold}
+.-ibl-indent-char-1 {color: #313245}
+.Comment {color: #9399b3; font-style: italic}
+.-spell {}
+.-variable {color: #cdd6f5}
+.-conceal {}
+.-nospell {}
+.rainbow3 {color: #f9e2b0}
+.rainbow2 {color: #fab388}
+.rainbow1 {color: #f38ba9}
+.-markup-link-url {color: #89b4fb; font-style: italic; text-decoration-line: underline}
+.Constant {color: #fab388}
+.-_url {}
+.Delimiter {color: #9399b3}
+.-_label {}
+.Number {color: #fab388}
+.-markup-link {color: #b4beff}
+.Macro {color: #cba6f8}
+.Label {color: #74c7ed}
+.Operator {color: #89dcec}
+</style>
+</head>
+<body style="display: flex">
+<pre>
+<span class="rainbow1"># <span class="-spell">thoughts on erlang</span>
+</span>
+<span class="-spell">I am, by no means, an expert on erlang. To be honest I don't fully grasp the basic concepts yet. But I am fascinated by the ideas that 
+I came across while exploring the docs and playing around with erlang and the OTP . So here I wanted to share a bit of my excitement and 
+maybe lure you into the rabbit hole. But keep in mind that as I said I am no expert and everything I am saying should be taken with a chunk of salt.
+Also it will be written the way I understand it. So there may be references to existing programming (or rust) concepts that aid me in grasping
+the new information.</span>
+
+<span class="-spell">The main think that lead to me obsessing over erlang for a while is how different it is. It takes an approach to both parallelization and error 
+handling.</span>
+
+<span class="rainbow2">## <span class="-spell">basics</span>
+</span>
+<span class="-spell">Next to the usual primitive data types erlang has basic building blocks called &quot;atoms&quot;. They are a name that can be compared to other atoms and that's
+about it. So they are somewhat of a enum field but the enum is 
+<span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">non_exhaustive</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://doc.rust-lang.org/reference/attributes/type_system.html#r-attributes.type-system.non_exhaustive.intro</span></span></span></span><span class="-markup-link">)</span></span>. The primary way of 
+interacting with them is pattern matching. On the top of pattern matching: erlang supports pattern matching at a function level</span>
+
+<span class="-markup-raw"><span class="-markup-raw">```</span><span class="Label"><span class="Label">erlang</span></span> 
+<span class="Constant"><span class="Function">prefix</span></span><span class="-punctuation-bracket">(</span><span class="Constant">m</span><span class="-punctuation-bracket">)</span> <span class="Operator">-&gt;</span> <span class="String">&quot;Mr.&quot;</span><span class="Delimiter">;</span>
+<span class="Constant"><span class="Function">prefix</span></span><span class="-punctuation-bracket">(</span><span class="Constant">f</span><span class="-punctuation-bracket">)</span> <span class="Operator">-&gt;</span> <span class="String">&quot;Mrs.&quot;</span><span class="Delimiter">;</span>
+<span class="Constant"><span class="Function">prefix</span></span><span class="-punctuation-bracket">(</span><span class="-variable">_</span><span class="-punctuation-bracket">)</span> <span class="Operator">-&gt;</span> <span class="String">&quot;Mx.&quot;</span><span class="Delimiter">.</span>
+<span class="-markup-raw">```</span>
+</span>
+<span class="rainbow2">## <span class="-spell">processes</span>
+</span>
+<span class="-spell">Processes are a core concept of the concurrency model in erlang. They are not OS processes but rather processes in the runtime VM. But their 
+behavior is very similar to the &quot;normal&quot; processes. They get initialized with a starting state that they hold and then wait for external calls</span>
+
+<span class="-spell">(in erlang they are received via message passing) that then get handled until the processes exits. Here we also see how useful atoms are as they
+provide an easy system for defining messages that the other process can then match on and perform operations.</span>
+
+<span class="-spell">Then there is also a system for managing processes (with other processes). On a basic level there are special messages, we call them signals,
+that a process sends to the process that spawned it when it exits. Signals are special because they act on the parent on their own.
+So we usually don't define how a dying child should be handled. Though there are process flags that can be set to &quot;trap&quot; an error from child processes.
+On the topic of dying together with other processes: a processes can also actively link itself to another process using its <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>PID<span class="-conceal">`</span></span></span>. This is 
+done to express the dependency between two ongoing tasks that cannot work without one another. If linked, processes also die together.</span>
+
+<span class="-spell">Other control structures that can be composed together to form a bigger system are supervisors and the <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>gen_server<span class="-conceal">`</span></span></span>. In erlang we call them 
+behaviors. They are patterns provided by OTP that define how a system works but not what it does. That way it is relatively simple to 
+use patterns that eliminate boilerplate and provide a sensibel base to build upon.</span>
+
+<span class="rainbow3">### <span class="-spell">supervisors</span>
+</span>
+<span class="-spell">Supervisors are usually used to build up a supervisor-tree. I think that is really cool because it reflects the actual structure and dependencies 
+in the project. This is one of the many places where I feel like erlang solves problem much more concrete and &quot;hands on&quot; than other languages.
+There is something about putting actual timeout values when sending messages to other processes or defining hierarchies between components that 
+intrigues me and that I don't really see in other languages. But it is something that I will get back on in the section about defensive programming.</span>
+
+<span class="-spell">Supervisors have the purpose of restarting child processes if they fail. But they allow fine grained control over how it should be done because
+that is relevant to the functionality and said hierarchies. Given a tree that looks something like this:</span>
+<span class="-markup-raw"><span class="-markup-raw">```</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span>A
+<span class="-ibl-indent-char-1">▎</span>/ | \
+B  C  D
+<span class="-markup-raw">```</span>
+</span><span class="-spell">where A is the supervisor. Now we assume C exits abnormally, then depending on how the supervisor is configured multiple things can happen. Here 
+are the most common options:</span>
+
+<span class="Special">|</span> <span class="-markup-heading-markdown">method         </span><span class="Special">|</span> <span class="-markup-heading-markdown">effect                   </span><span class="Special">|</span>
+<span class="Special">|</span><span class="Special">----------------</span><span class="Special">|</span><span class="Special">--------------------------</span><span class="Special">|</span>
+<span class="Special">|</span> <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>one_for_one<span class="-conceal">`</span></span></span>  <span class="Special">|</span> C get restarted          <span class="Special">|</span>
+<span class="Special">|</span> <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>one_for_all<span class="-conceal">`</span></span></span>  <span class="Special">|</span> B, C and D get restarted <span class="Special">|</span>
+<span class="Special">|</span> <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>rest_for_one<span class="-conceal">`</span></span></span> <span class="Special">|</span> C and D get restarted    <span class="Special">|</span> 
+
+<span class="-spell">Processes get started from left to right, that is why only C and D get restarted in the last case. But on the topic of abnormal exits, what happens
+to a process that is managed by a supervisor when it exits can also be configured:</span>
+
+<span class="Special">|</span> <span class="-markup-heading-markdown">restart policy </span><span class="Special">|</span> <span class="-markup-heading-markdown">normal exit </span><span class="Special">|</span> <span class="-markup-heading-markdown">abnormal exit </span><span class="Special">|</span>
+<span class="Special">|</span><span class="Special">----------------</span><span class="Special">|</span><span class="Special">-------------</span><span class="Special">|</span><span class="Special">---------------</span><span class="Special">|</span>
+<span class="Special">|</span> permanent      <span class="Special">|</span> restart     <span class="Special">|</span> restart       <span class="Special">|</span>
+<span class="Special">|</span> transient      <span class="Special">|</span> stay dead   <span class="Special">|</span> restart       <span class="Special">|</span> 
+<span class="Special">|</span> temporary      <span class="Special">|</span> stay dead   <span class="Special">|</span> stay dead     <span class="Special">|</span> 
+
+<span class="-spell">I think this is enough theoretical talk and I for my part do like some code snippets in the blogs I read so here we go.
+When using a behavior it is similar to implementing an interface (but it isn't enforced that the &quot;methods&quot; are actually implemented, again, more on 
+that later).
+<span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>-behavior(BehaviorName)<span class="-conceal">`</span></span></span>
+For the supervisor the main callbacks that need to be there are <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>init/1<span class="-conceal">`</span></span></span>, <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>handle_call/3<span class="-conceal">`</span></span></span>, <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>terminate/2<span class="-conceal">`</span></span></span>, …
+And when spawning workers this is a simplified code snipped:</span>
+
+<span class="-markup-raw"><span class="-markup-raw">```</span><span class="Label"><span class="Label">erlang</span></span>
+<span class="Comment"><span class="-spell"><span class="Comment">%% &quot;?MODULE&quot; is a shorthand for the current module, so it doesn't need to be repeated all the time</span></span></span>
+<span class="Constant"><span class="Function">start_link</span></span><span class="-punctuation-bracket">(</span><span class="-punctuation-bracket">)</span> <span class="Operator">-&gt;</span> <span class="Function"><span class="Constant">supervisor</span><span class="Operator">:</span><span class="Constant">start_link</span></span><span class="-punctuation-bracket">(</span><span class="-punctuation-bracket">{</span><span class="Constant">local</span><span class="Delimiter">,</span> <span class="Macro">?<span class="-variable">MODULE</span></span><span class="-punctuation-bracket">}</span><span class="Delimiter">,</span> <span class="Macro">?<span class="-variable">MODULE</span></span><span class="Delimiter">,</span> <span class="-punctuation-bracket">[</span><span class="-punctuation-bracket">]</span><span class="-punctuation-bracket">)</span><span class="Delimiter">.</span>
+
+<span class="Constant"><span class="Function">init</span></span><span class="-punctuation-bracket">(</span><span class="-punctuation-bracket">[</span><span class="-punctuation-bracket">]</span><span class="-punctuation-bracket">)</span> <span class="Operator">-&gt;</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% example config for one child</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-variable">WorkerSpec</span> <span class="Operator">=</span> <span class="-punctuation-bracket">#</span><span class="-punctuation-bracket">{</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">id</span> <span class="Operator">=&gt;</span> <span class="Constant">my_worker</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">start</span> <span class="Operator">=&gt;</span> <span class="-punctuation-bracket">{</span><span class="Constant">my_worker</span><span class="Delimiter">,</span> <span class="Constant">start_link</span><span class="Delimiter">,</span> <span class="-punctuation-bracket">[</span><span class="-punctuation-bracket">]</span><span class="-punctuation-bracket">}</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% Always restart</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">restart</span> <span class="Operator">=&gt;</span> <span class="Constant">permanent</span><span class="Delimiter">,</span> 
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% Give it 5 seconds</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">shutdown</span> <span class="Operator">=&gt;</span> <span class="Number">5000</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% 2 types of children</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%%  -&gt; workes</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%%  -&gt; supervisor</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">type</span> <span class="Operator">=&gt;</span> <span class="Constant">worker</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-punctuation-bracket">}</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% supervisor config</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-variable">SupervisorSpec</span> <span class="Operator">=</span> <span class="-punctuation-bracket">#</span><span class="-punctuation-bracket">{</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% restart children that fail</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">strategy</span> <span class="Operator">=&gt;</span> <span class="Constant">one_for_one</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% Allow 10fails/minute</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Constant">intensity</span> <span class="Operator">=&gt;</span> <span class="-punctuation-bracket">{</span><span class="Number">10</span><span class="Delimiter">,</span> <span class="Number">60</span><span class="-punctuation-bracket">}</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-punctuation-bracket">}</span><span class="Delimiter">,</span>
+<span class="-ibl-indent-char-1">▎</span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="Comment"><span class="-spell"><span class="Comment">%% start a list of workes in the supervisor</span></span></span>
+<span class="-ibl-indent-char-1">▎</span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-ibl-whitespace-char-1"> </span><span class="-punctuation-bracket">{</span><span class="Constant">ok</span><span class="Delimiter">,</span> <span class="-punctuation-bracket">{</span><span class="-variable">SupervisorSpec</span><span class="Delimiter">,</span> <span class="-punctuation-bracket">[</span><span class="-variable">WorkerSpec</span><span class="-punctuation-bracket">]</span><span class="-punctuation-bracket">}</span><span class="-punctuation-bracket">}</span><span class="Delimiter">.</span>
+<span class="-markup-raw">```</span>
+</span><span class="-spell">This is just about how much erlang I wrote in the past xD. So far I kept it to minimal examples and writing <span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">gleam</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://gleam.run/</span></span></span></span><span class="-markup-link">)</span></span> which 
+transpiles to erlang and uses the same concepts and building blocks.</span>
+
+<span class="rainbow3">### <span class="-spell"><span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>gen_server<span class="-conceal">`</span></span></span></span>
+</span>
+<span class="-spell">The <span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>gen_server<span class="-conceal">`</span></span></span> behavior models the interaction between clients and servers in the internet within your application. As far as I know it is most 
+commonly used to distribute work instead of error handling. It would block the process to do the (possibly expensive) computation and thus block 
+the processes from reading new messages in the inbox. Therefore it spawns new processes that do the work and then report back with the result.</span>
+
+<span class="rainbow2">## <span class="-spell">non-defensive programming</span>
+</span>
+<span class="-spell">This is something that I never really thought about before. In most other programming languages and in rust especially defensive programming is 
+the way errors are handled. For me that means that we try to treat errors as normal paths an application can take and not as special cases. So 
+the option that an error occurs should always be kept in mind and be handled. With erlang the error solving strategy (errors usually mean that
+a process has exited abnormally) is to restart the processes, thus resetting it into a state that is known to be good/valid. If that doesn't 
+resolve the error then it will try that again until the supervisor decides that this were too many restarts and that it cannot handle this case.
+And as we know the way to deal with that is to exit abnormally and let the parent handle it. This of course is not the entire picture, as 
+this wouldn't get us anywhere but to always propagate up but it is an approach I haven't seen elsewhere. And within this concept it all is
+coherent. If we look at the atoms as fields of an potentially infinite enum, then a process only &quot;accepts&quot; some of the values as valid commands.
+When sent an unexpected message it is then good to tell the supervisor because it indicates that something went wrong elsewhere and that needs
+to be addressed. And only the processes higher up in the tree can do so. Given the right patterns it is helpful to panic as error management.</span>
+
+<span class="-spell">But for type errors and other static checking there still is <span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">Dialyzer</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://www.erlang.org/doc/apps/dialyzer/dialyzer.html</span></span></span></span><span class="-markup-link">)</span></span>.</span>
+
+<span class="rainbow2">## <span class="-spell">sources and further reading</span>
+</span>
+<span class="-markup-list">- </span><span class="-spell"><span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">learnyousomeerlang</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://learnyousomeerlang.com/</span></span></span></span><span class="-markup-link">)</span></span></span>
+<span class="-markup-list">- </span><span class="-spell"><span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">erlang docs</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://www.erldocs.com/18.0/stdlib/gen_server.html#init/1</span></span></span></span><span class="-markup-link">)</span></span></span>
+<span class="-markup-list">- </span><span class="-spell"><span class="-markup-link"><span class="-_label">[</span></span><span class="-_label"><span class="-markup-link-label">distributed erlang</span><span class="-markup-link">]</span><span class="-markup-link">(</span><span class="-markup-link"><span class="-_url"><span class="-markup-link-url"><span class="-nospell">https://www.erlang.org/doc/system/distributed.html</span></span></span></span><span class="-markup-link">)</span></span></span>
+
+<span class="-spell"><span class="-markup-raw"><span class="-nospell"><span class="-conceal">`</span>Sun 8.2.2026 - Lovis Rentsch - EUPLv1.2<span class="-conceal">`</span></span></span>
+of course no LLM was involved in writing this text</span>
+
+</pre>
+</body>
+</html>
